@@ -1,4 +1,6 @@
 import { useParams, useOutletContext } from "react-router-dom";
+import { Segment, Image } from "semantic-ui-react";
+import ParkInfo from "../components/ParkInfo"
 
 function ParkDetails() {
   const params = useParams();
@@ -6,10 +8,15 @@ function ParkDetails() {
   
   const park = parks.find(park => park.id === parseInt(params.id))
 
+  if(!park){
+    return(<h1> Loading </h1>)
+  }
+  
   return(
-      <aside>
-        <h1>{`This area will render details about ${park.fullName}`}</h1>
-      </aside>
+      <Segment>
+        <Image src={park.images[1].url} size={"big"} floated="left"/>
+        <ParkInfo park={park}/>
+      </Segment>
   );
 };
 
