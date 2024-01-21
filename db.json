@@ -2,7 +2,7 @@
   "images": [
     {
       "id": 1,
-      "credit": "Tim Hauf, timhaufphotography.com",
+      "credit": "Tim Hauf",
       "title": "Inspiration Point by Tim Hauf, Channel Islands NP",
       "altText": "Steep, rugged ocean cliffs extending in an island chain.",
       "caption": "Inspiration Point, Anacapa Island: One of the most spectacular views in the park can be found from Inspiration Point. Looking to the west, one may see Middle and West Anacapa, with Santa Cruz Island in the distance.",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "credit": "NPS: John Chao",
+      "credit": "NPS/John Chao",
       "title": "Incoming Tide at  Redwood National Park",
       "altText": "Rocks, rockpools and waves",
       "caption": "40 miles of coastline are part of Redwood National Park",
@@ -42,31 +42,23 @@
     },
     {
       "id": 6,
-      "credit": "NPS Photo / Scott Arnaz",
-      "title": "Winter at Manzanita Lake",
-      "altText": "A frozen lake below snow-covered trees and peak",
-      "caption": "With over 30 feet of snowfall annually, Lassen provides numerous opportunities for winter recreation.",
-      "url": "https://www.nps.gov/common/uploads/structured_data/3C873811-1DD8-B71B-0B9C62ED8E12E7B5.jpg"
+      "credit": "NPS",
+      "title": "Tenaya Lake at Sunset",
+      "altText": "Mountains surrounding a lake.",
+      "caption": "Tenaya Lake is a favorite place to stop along the Tioga Road in summer.",
+      "url": "https://www.nps.gov/common/uploads/structured_data/3C84C97E-1DD8-B71B-0B5DD2112C58C175.jpg"
     },
     {
       "id": 7,
-      "credit": "NPS Photo",
-      "title": "Deep Blue",
-      "altText": "A volcanic peak rises above a tree-lined, deep blue lake.",
-      "caption": "Lassen Peak stands out boldly between the bright blue sky and the sapphire hue of Lake Helen.",
-      "url": "https://www.nps.gov/common/uploads/structured_data/3C873E3A-1DD8-B71B-0BBD47F2E441D2F7.jpg"
-    },
-    {
-      "id": 8,
-      "credit": "NPS Photo / Steven Olson",
+      "credit": "NPS/Steven Olson",
       "title": "Nurse log on the side of a trail.",
       "altText": "A tree stump is covered with plants.",
       "caption": "A fallen redwood tree will be on the forest floor for centuries providing habitat for a new generation of plants and animals.",
       "url": "https://www.nps.gov/common/uploads/structured_data/CD559BD9-FAB5-0FA1-F544AB5BF977C571.jpg"
     },
     {
-      "id": 9,
-      "credit": "NPS / Bob Roney",
+      "id": 8,
+      "credit": "NPS/Bob Roney",
       "title": "Rainbow over Half Dome",
       "altText": "A rainbow over a mountain in the distance.",
       "caption": "A hike up to Sentinel Dome rewards people with great views of the landscape around them.",
@@ -143,7 +135,7 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/8E1AE30B-DBDB-C193-C1023F2C7591ABA0.jpg"
         }
       ],
-      "weatherInfo": "In general, the islands have a Mediterranean climate year-round. Temperatures are relatively stable, with highs averaging in the mid-60s (°F) and lows in the low-50s. However, there are seasonal differences that visitors should take into consideration when visiting the park. In addition, visitors also should be aware that ocean and weather conditions vary considerably from day-to-day and island-to-island. For more information visit: http://www.nps.gov/chis/planyourvisit/weather.htm"
+      "weatherInfo": "In general, the islands have a Mediterranean climate year-round. Temperatures are relatively stable, with highs averaging in the mid-60s (°F) and lows in the low-50s. However, there are seasonal differences that visitors should take into consideration when visiting the park. In addition, visitors also should be aware that ocean and weather conditions vary considerably from day-to-day and island-to-island."
     },
     {
       "id": 2,
@@ -454,6 +446,14 @@
           "altText": "A fisherman casts a line from a boat below a snow-dotted volcanic peak.",
           "caption": "Manzanita Lake offers spectacular catch-and-release fishing in the shadow of volcanoes.",
           "url": "https://www.nps.gov/common/uploads/structured_data/3C874252-1DD8-B71B-0B6BC0D39B9A51C2.jpg"
+        },
+        {
+          "id": 5,
+          "credit": "NPS Photo / Scott Arnaz",
+          "title": "Winter at Manzanita Lake",
+          "altText": "A frozen lake below snow-covered trees and peak",
+          "caption": "With over 30 feet of snowfall annually, Lassen provides numerous opportunities for winter recreation.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C873811-1DD8-B71B-0B9C62ED8E12E7B5.jpg"
         }
       ],
       "weatherInfo": "Weather at Lassen can vary dramatically throughout the year. Average January temperatures are a high of 40.4 °F (4.7 °C) and a low of 20.8 °F (-6.2 °C). Average July temperatures are a high of 88.4 °F and a low of 49.8 °F. Temperatures reach 90 °F or higher on an average of 36.9 days, and drop to 32 ° or lower on an average of 164 days days annually."
@@ -683,14 +683,6 @@
         },
         {
           "id": 3,
-          "credit": "NPS",
-          "title": "Tenaya Lake at Sunset",
-          "altText": "Mountains surrounding a lake.",
-          "caption": "Tenaya Lake is a favorite place to stop along the Tioga Road in summer.",
-          "url": "https://www.nps.gov/common/uploads/structured_data/3C84C97E-1DD8-B71B-0B5DD2112C58C175.jpg"
-        },
-        {
-          "id": 4,
           "credit": "NPS / Cindy Jacoby",
           "title": "Half Dome",
           "altText": "Granite dome with trace amounts of snow.",
@@ -698,7 +690,7 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/3C84CF74-1DD8-B71B-0B9C7FF83F7C68EB.jpg"
         },
         {
-          "id": 5,
+          "id": 4,
           "credit": "NPS Photo/ Christine Fey",
           "title": "El Capitan",
           "altText": "El Capitan and reflection in Merced River with some low clouds",

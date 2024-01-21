@@ -1,11 +1,25 @@
+import { useState, useEffect} from "react"
+import { Image } from 'semantic-ui-react'
 import ParkImage from "./ParkImage"
 
 function ImageGallery(){
-    //will receive an array of image objs and create a ParkImage for each
+    const [images, setImages] = useState([])
+
+    useEffect(() => {
+        fetch("http://localhost:8001/images")
+            .then(resp => resp.json())
+            .then(data => setImages(data))
+    }, [])
+
+    const imageDisplay = images.map(image => 
+        <ParkImage key={image.id} image={image}/>)
+
+    const photoCredits = images.map(image => image.credit)
+    
     return(
         <>
-            <h3>Image Gallery Here</h3>
-            <ParkImage />
+            <Image.Group size="medium">{imageDisplay}</Image.Group>
+            <p>Photo credit starting top left: {photoCredits.join(", ")}</p>
         </>
     )
 }

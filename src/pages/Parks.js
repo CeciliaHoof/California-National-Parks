@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import ParkCard from "../components/ParkCard"
+import { Card } from "semantic-ui-react";
 
 function Parks(){
     const [parks, setParks] = useState([])
@@ -10,11 +11,22 @@ function Parks(){
             .then(resp => resp.json())
             .then(data => setParks(data))
     }, [])
+
+
     //fetches /parks from server and renders a ParkCard for each park
     return(
         <main>
-            <h2>Here are the Parks!</h2> 
-            <ParkCard park = {parks[0]}/>
+            <h2>Here are the Parks!</h2>
+            <Card.Group itemsPerRow={8}>
+                <ParkCard park = {parks[0]}/>
+                <ParkCard park = {parks[0]}/>
+                <ParkCard park = {parks[0]}/>
+                <ParkCard park = {parks[0]}/>
+                <ParkCard park = {parks[0]}/>
+                <ParkCard park = {parks[0]}/>
+                <ParkCard park = {parks[0]}/>
+                <ParkCard park = {parks[0]}/>
+            </Card.Group> 
             <Outlet context={parks}/>
             
         </main>

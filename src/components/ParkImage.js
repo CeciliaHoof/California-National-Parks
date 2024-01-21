@@ -1,6 +1,10 @@
-function ParkImage(){
+import { Card, Image } from "semantic-ui-react"
+
+function ParkImage({ image }){
+    const {url, altText} = image;
+
     return (
-        <h4>Image Here</h4>
+            <Image src={url} alt={altText} />
     )
 }
 
