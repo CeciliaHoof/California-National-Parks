@@ -1,6 +1,5 @@
 import { useState, useEffect} from "react"
 import { Image } from 'semantic-ui-react'
-import ParkImage from "./ParkImage"
 
 function ImageGallery(){
     const [images, setImages] = useState([])
@@ -12,7 +11,7 @@ function ImageGallery(){
     }, [])
 
     const imageDisplay = images.map(image => 
-        <ParkImage key={image.id} image={image}/>)
+        <Image key={image.id} src={image.url} alt={image.altText}/>)
 
     const photoCredits = images.map(image => image.credit)
     
