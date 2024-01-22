@@ -135,7 +135,21 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/8E1AE30B-DBDB-C193-C1023F2C7591ABA0.jpg"
         }
       ],
-      "weatherInfo": "In general, the islands have a Mediterranean climate year-round. Temperatures are relatively stable, with highs averaging in the mid-60s (°F) and lows in the low-50s. However, there are seasonal differences that visitors should take into consideration when visiting the park. In addition, visitors also should be aware that ocean and weather conditions vary considerably from day-to-day and island-to-island."
+      "weatherInfo": "In general, the islands have a Mediterranean climate year-round. Temperatures are relatively stable, with highs averaging in the mid-60s (°F) and lows in the low-50s. However, there are seasonal differences that visitors should take into consideration when visiting the park. In addition, visitors also should be aware that ocean and weather conditions vary considerably from day-to-day and island-to-island.",
+      "reviews": [
+        {
+          "id":1,
+          "username": "CoastalExplorer19",
+          "title": "A Coastal Paradise",
+          "content": "Channel Islands National Park offers a mesmerizing escape into nature's beauty. The pristine landscapes, diverse ecosystems, and crystal-clear waters make it a coastal paradise for nature enthusiasts. The park comprises five unique islands, each with its own distinct charm. Hiking trails with breathtaking views, opportunities for wildlife spotting, and the chance to explore sea caves create an unforgettable experience. The isolation of the islands adds to their allure, providing a peaceful retreat from the hustle and bustle of everyday life. Whether you're an avid hiker, a birdwatcher, or simply seeking serenity by the ocean, Channel Islands National Park is a must-visit destination that showcases the wonders of the California coast."
+        },
+        {
+          "id": 2,
+          "username": "MarineEnthusiast88",
+          "title": "Unparalleled Marine Diversity",
+          "content": "Channel Islands National Park is a hidden gem for marine enthusiasts and anyone intrigued by the wonders of the ocean. The park's rich marine diversity is unparalleled, with thriving kelp forests, vibrant coral reefs, and an abundance of marine life. Snorkeling and scuba diving in the park's clear waters reveal a world teeming with colorful fish, playful sea lions, and even the occasional dolphin or whale sighting. The preservation efforts in the park have allowed marine ecosystems to flourish, making it a haven for underwater exploration. The educational programs offered by the park rangers provide valuable insights into the importance of conservation and the delicate balance of marine ecosystems. Channel Islands National Park is a marine wonderland that captivates the imagination and leaves visitors with a deep appreciation for the ocean's beauty."
+        }
+      ]
     },
     {
       "id": 2,
@@ -213,7 +227,21 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/DE565754-0008-EEF4-AD521ED16178ADEA.jpg"
         }
       ],
-      "weatherInfo": "Spring is the most popular time to visit Death Valley. Warm and sunny days with the possibility of spring wildflowers is a big attraction. Summer starts early in Death Valley. By May the valley can be scorching hot. Autumn arrives in late October, with warm but pleasant temperatures and generally clear skies. Winter has cool days, chilly nights and rarely, rainstorms. With snow capping the high peaks and low angled winter light, this season is especially beautiful for exploring the valley."
+      "weatherInfo": "Spring is the most popular time to visit Death Valley. Warm and sunny days with the possibility of spring wildflowers is a big attraction. Summer starts early in Death Valley. By May the valley can be scorching hot. Autumn arrives in late October, with warm but pleasant temperatures and generally clear skies. Winter has cool days, chilly nights and rarely, rainstorms. With snow capping the high peaks and low angled winter light, this season is especially beautiful for exploring the valley.",
+      "reviews": [
+        {
+          "id":1,
+          "username": "DesertExplorer92",
+          "title": "A Desert Oasis",
+          "content": "Death Valley National Park is a surreal escape into the heart of the desert, where vast landscapes of otherworldly beauty unfold before your eyes. The extremes of temperature and the unique geological formations create a mesmerizing environment. Hiking through the golden dunes, exploring the Badwater Basin, and witnessing the vibrant colors of Artist's Palette are experiences that redefine one's connection with nature. Despite its name, Death Valley is alive with hidden wonders, from blooming wildflowers after rare rains to the star-studded night sky. This park is a testament to the resilience of life in the harshest conditions, making it a must-visit destination for those seeking the beauty of the desert."
+        },
+        {
+          "id": 2,
+          "username": "StarryOasisSeeker",
+          "title": "Stargazer's Paradise",
+          "content": "For astronomy enthusiasts and seekers of unparalleled solitude, Death Valley National Park is a stargazer's paradise. The vast expanse of the desert sky, free from light pollution, unveils a breathtaking celestial display each night. The park's strategic designation as a Dark Sky Park enhances the astronomical experience, allowing visitors to marvel at the Milky Way and countless constellations. The harmony of silence and the cosmic spectacle overhead create a spiritual connection with the universe. During the day, the park's unique geological features, such as Zabriskie Point and Mesquite Flat Sand Dunes, offer a contrasting beauty that adds to the overall allure of Death Valley. This park is a haven for those who appreciate the beauty of both the earthly and celestial realms."
+        }
+      ]
     },
     {
       "id": 3,
@@ -294,7 +322,21 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/3C85EB5A-1DD8-B71B-0BACA59CC5E5A620.jpg"
         }
       ],
-      "weatherInfo": "Days are typically clear with less than 25% humidity. Temperatures are most comfortable in the spring and fall, with an average highs around 85°F (29°C) and average lows around 50°F (10°C) respectively. Winter brings cooler days, around 60°F (15°C), and freezing nights. It occasionally snows at higher elevations. Summers are hot, over 100°F (38°C) during the day and not cooling much below 75°F (24°C) at night."
+      "weatherInfo": "Days are typically clear with less than 25% humidity. Temperatures are most comfortable in the spring and fall, with an average highs around 85°F (29°C) and average lows around 50°F (10°C) respectively. Winter brings cooler days, around 60°F (15°C), and freezing nights. It occasionally snows at higher elevations. Summers are hot, over 100°F (38°C) during the day and not cooling much below 75°F (24°C) at night.",
+      "reviews":[
+        {
+          "id": 1,
+          "username": "RockClimberDreamer",
+          "title": "Breathtaking Rock Formations",
+          "content": "Joshua Tree National Park is a haven for rock climbers and nature enthusiasts alike. The unique landscape, dotted with iconic Joshua Trees, creates a surreal backdrop for exploring massive rock formations. The park offers an exhilarating experience for climbers with its countless boulders and rock piles. Beyond the climbing adventures, the tranquility of the desert and the stunning vistas provide a sense of connection with the natural world. Whether you're an experienced climber or a casual hiker, Joshua Tree National Park's otherworldly beauty and diverse flora make it a captivating destination."
+        },
+        {
+          "id": 2,
+          "username": "StarryNightExplorationz",
+          "title": "Celestial Symphony",
+          "content": "Joshua Tree National Park transforms into a celestial symphony after sunset. The clear desert skies, free from urban light pollution, reveal a breathtaking panorama of stars and constellations. Camping under the starlit sky is an unforgettable experience that immerses visitors in the beauty of the cosmos. By day, the park's iconic Joshua Trees and unique rock formations provide a mystical setting for exploration. Whether you're a seasoned astrophotographer or someone seeking a peaceful escape under the stars, Joshua Tree National Park is a celestial haven that combines natural wonders with the magic of the night sky."
+        }
+      ]
     },
     {
       "id": 4,
@@ -361,7 +403,21 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/3C7A2E1B-1DD8-B71B-0B4D563CB47FA60F.jpg"
         }
       ],
-      "weatherInfo": "Because of the extreme elevation range in these parks, weather conditions vary widely between areas. In summer, the sequoia groves have comfortable temperatures and the foothills are hot and dry. Snow lingers on high-mountain passes well into summer. In fall, some areas close or reduce their hours. Winter brings snow to sequoia groves and rain to the foothills. Be prepared for tire chain requirements. Spring is a great time to hike in the foothills and snow begins to melt at higher elevations."
+      "weatherInfo": "Because of the extreme elevation range in these parks, weather conditions vary widely between areas. In summer, the sequoia groves have comfortable temperatures and the foothills are hot and dry. Snow lingers on high-mountain passes well into summer. In fall, some areas close or reduce their hours. Winter brings snow to sequoia groves and rain to the foothills. Be prepared for tire chain requirements. Spring is a great time to hike in the foothills and snow begins to melt at higher elevations.",
+      "reviews":[
+        {
+          "id": 1,
+          "username": "GiantTreeAdventurer",
+          "title": "Majestic Giants of the Forest",
+          "content": "Sequoia & Kings Canyon National Parks are a sanctuary of giant trees, where nature's most majestic creations stand tall. The towering sequoias, including the famous General Sherman Tree, evoke a sense of awe and reverence. Hiking among these giants, with their immense trunks and lush canopies, is a humbling experience that brings one closer to the grandeur of the natural world. The park's diverse landscapes, from rugged mountains to pristine meadows, create a picturesque backdrop for exploration. Whether you're a tree enthusiast, a hiker, or simply a nature lover, Sequoia & Kings Canyon National Park is a testament to the enduring beauty and strength of ancient trees."
+        },
+        {
+          "id": 2,
+          "username": "MountainVistaSeeker",
+          "title": "Panoramic Mountain Vistas",
+          "content": "Sequoia & Kings Canyon National Parks offer more than just giant trees; it presents a breathtaking tapestry of mountain vistas. The park's expansive landscapes showcase the rugged beauty of the Sierra Nevada mountains, providing panoramic views that captivate the soul. Hiking trails that lead to high alpine lakes and scenic overlooks offer a sense of adventure and a chance to immerse oneself in the pristine wilderness. Whether you're a seasoned backpacker or a casual day hiker, the park's diverse terrain and stunning mountain vistas make it a destination that beckons those seeking the serenity and majesty of the great outdoors."
+        }
+      ]
     },
     {
       "id": 5,
@@ -456,7 +512,21 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/3C873811-1DD8-B71B-0B9C62ED8E12E7B5.jpg"
         }
       ],
-      "weatherInfo": "Weather at Lassen can vary dramatically throughout the year. Average January temperatures are a high of 40.4 °F (4.7 °C) and a low of 20.8 °F (-6.2 °C). Average July temperatures are a high of 88.4 °F and a low of 49.8 °F. Temperatures reach 90 °F or higher on an average of 36.9 days, and drop to 32 ° or lower on an average of 164 days days annually."
+      "weatherInfo": "Weather at Lassen can vary dramatically throughout the year. Average January temperatures are a high of 40.4 °F (4.7 °C) and a low of 20.8 °F (-6.2 °C). Average July temperatures are a high of 88.4 °F and a low of 49.8 °F. Temperatures reach 90 °F or higher on an average of 36.9 days, and drop to 32 ° or lower on an average of 164 days days annually.",
+      "reviews": [
+        {
+          "id": 1,
+          "username": "VolcanoExplorer",
+          "title": "Dynamic Volcanic Wonders",
+          "content": "Lassen Volcanic National Park is a dynamic showcase of volcanic wonders that transport visitors into the heart of geological marvels. The park's bubbling mud pots, fumaroles, and the iconic Lassen Peak offer a glimpse into the Earth's fiery forces. Exploring the geothermal features is like stepping into a surreal, otherworldly landscape. Hiking trails that wind through the park reveal breathtaking views of craters, lava beds, and pristine mountain lakes. Whether you're a geology enthusiast, a photographer, or simply a nature lover, Lassen Volcanic National Park provides a unique and captivating experience that highlights the raw power of volcanic activity."
+        },
+        {
+          "id": 2,
+          "username": "WildflowerAdventurer",
+          "title": "Blooms Amidst Volcanic Terrain",
+          "content": "Lassen Volcanic National Park surprises with its contrast of delicate wildflowers against the rugged backdrop of volcanic terrain. During the warmer months, the park transforms into a colorful canvas, adorned with vibrant blooms that carpet the meadows and slopes. The juxtaposition of life thriving amidst the remnants of volcanic activity is a testament to the resilience of nature. Scenic drives and hikes take visitors through this floral spectacle, offering a unique and picturesque experience. Whether you're a botanist, a nature photographer, or someone seeking the unexpected beauty of volcanic landscapes, Lassen Volcanic National Park is a must-visit destination for its dynamic and diverse offerings."
+        }
+      ]
     },
     {
       "id": 6,
@@ -524,7 +594,21 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/3C86AE8B-1DD8-B71B-0B3ACEBC064CCC03.jpg"
         }
       ],
-      "weatherInfo": "Pinnacles National Park has a Mediterranean climate with hot, dry summers, and mild winters with moderate precipitation. The park is several miles inland from the Pacific Ocean. A wider variation in seasonal temperatures can be expected in the local area. Summers are hot with temperatures above 100 degrees. Winters are cooler with highs in the 60s. Big swings in temperature occur between day and night, year round."
+      "weatherInfo": "Pinnacles National Park has a Mediterranean climate with hot, dry summers, and mild winters with moderate precipitation. The park is several miles inland from the Pacific Ocean. A wider variation in seasonal temperatures can be expected in the local area. Summers are hot with temperatures above 100 degrees. Winters are cooler with highs in the 60s. Big swings in temperature occur between day and night, year round.",
+      "reviews":[
+        {
+          "id": 1,
+          "username": "CaveExplorer83",
+          "title": "Mystical Cave Adventures",
+          "content": "Pinnacles National Park beckons adventurers with its mystical cave systems that lead to hidden wonders. Exploring the park's unique talus caves, formed by massive boulders wedged into narrow canyons, is an exhilarating experience. Hiking through these subterranean passages unveils a world of stalactites, stalagmites, and intriguing rock formations. The park's diverse flora and fauna, including California condors soaring overhead, add to the enchantment. Whether you're a spelunker, a wildlife enthusiast, or someone seeking an otherworldly underground adventure, Pinnacles National Park offers a fascinating journey into the heart of the earth."
+        },
+        {
+          "id": 2,
+          "username": "RaptorWatcher",
+          "title": "Aerial Spectacle of Condors",
+          "content": "Pinnacles National Park is a haven for bird watchers and those seeking the awe-inspiring sight of California condors in flight. The park's rugged cliffs and expansive landscapes provide the perfect backdrop for witnessing these majestic birds soaring through the sky. Hiking trails with panoramic views offer opportunities to observe not only condors but also a variety of other bird species. The park's unique blend of geological features and diverse ecosystems make it a captivating destination for both nature enthusiasts and bird lovers. Whether you're an avid birder, a photographer, or simply a fan of wildlife, Pinnacles National Park delivers an aerial spectacle that leaves a lasting impression."
+        }
+      ]
     },
     {
       "id": 7,
@@ -613,7 +697,21 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/995A228C-0A29-6E21-40A3F8CEB80F0EA4.jpg"
         }
       ],
-      "weatherInfo": "Visitors should be prepared for cooler and damp weather. Dress in layers and expect to get wet. Year-round temperatures along California's redwood coast: mid-40s°F (7°C) to mid-60s°F (18°C). Summer can be foggy, with highs occasionally reaching low 70s°F (20°C). Winters are cooler with considerable rain. October through April averages 60-80 inches of rain over the region."
+      "weatherInfo": "Visitors should be prepared for cooler and damp weather. Dress in layers and expect to get wet. Year-round temperatures along California's redwood coast: mid-40s°F (7°C) to mid-60s°F (18°C). Summer can be foggy, with highs occasionally reaching low 70s°F (20°C). Winters are cooler with considerable rain. October through April averages 60-80 inches of rain over the region.",
+      "reviews":[
+        {
+          "id": 1,
+          "username": "TreeGazer89",
+          "title": "Tower of Giants",
+          "content": "Redwood National Park is a sanctuary of towering giants that command reverence and awe. The majestic redwood trees, some reaching heights of over 300 feet, create a forested cathedral that immerses visitors in a world of natural wonder. Hiking through the park's ancient groves and witnessing the sunlight filtering through the towering canopies is a transcendent experience. The park's commitment to preserving these ancient trees ensures a glimpse into the past and a connection with the earth's oldest living beings. Whether you're a tree enthusiast, a nature photographer, or simply seeking solace among giants, Redwood National Park is an unparalleled destination that celebrates the magnificence of the natural world."
+        },
+        {
+          "id": 2,
+          "username": "CoastalExplorer19",
+          "title": "Seaside Serenity",
+          "content": "Redwood National Park not only boasts towering trees but also offers a unique blend of coastal beauty. The park's proximity to the Pacific Ocean adds a touch of serenity to the grandeur of the redwoods. Scenic drives and trails lead visitors to picturesque coastal vistas, where rugged cliffs meet the crashing waves. The park's diverse ecosystems, from ancient forests to pristine beaches, create a harmonious balance between land and sea. Whether you're a coastal enthusiast, a hiker, or someone seeking a tranquil escape by the ocean, Redwood National Park is a destination that combines the majesty of ancient trees with the soothing ambiance of the Pacific coastline."
+        }
+      ]
     },
     {
       "id": 8,
@@ -698,7 +796,22 @@
           "url": "https://www.nps.gov/common/uploads/structured_data/058C8410-D5BA-32F4-BC468014AF42CB0B.jpg"
         }
       ],
-      "weatherInfo": "Yosemite National Park covers nearly 1,200 square miles (3,100 square km) in the Sierra Nevada, with elevations ranging from about 2,000 feet (600 m) to 13,000 ft (4,000 m). Yosemite receives 95% of its precipitation between October and May (and over 75% between November and March). Most of Yosemite is blanketed in snow from about November through May. (Yosemite Valley can be rainy or snowy in any given winter storm.)"
+      "weatherInfo": "Yosemite National Park covers nearly 1,200 square miles (3,100 square km) in the Sierra Nevada, with elevations ranging from about 2,000 feet (600 m) to 13,000 ft (4,000 m). Yosemite receives 95% of its precipitation between October and May (and over 75% between November and March). Most of Yosemite is blanketed in snow from about November through May. (Yosemite Valley can be rainy or snowy in any given winter storm.)",
+      "reviews":[
+        {
+          "id": 1,
+          "username": "RockClimberDreamer",
+          "title": "Majestic Peaks and Waterfalls",
+          "content": "Yosemite National Park is a playground for mountain enthusiasts, offering a breathtaking display of majestic peaks and cascading waterfalls. The iconic granite cliffs, such as El Capitan and Half Dome, dominate the landscape and provide a challenge for rock climbers and hikers alike. The park's numerous waterfalls, including Yosemite Falls, create a symphony of nature that captivates the senses. Hiking trails with panoramic views and meandering rivers enhance the overall experience. Whether you're an avid mountaineer, a nature photographer, or simply someone seeking awe-inspiring landscapes, Yosemite National Park stands as a testament to the grandeur of the Sierra Nevada mountains."
+        },
+        {
+          "id": 2, 
+          "username": "ValleyDreamer",
+          "title": "Enchanting Yosemite Valley",
+          "content": "Yosemite National Park's iconic Yosemite Valley is an enchanting oasis nestled within the Sierra Nevada mountains. The valley's meadows, surrounded by towering granite cliffs and waterfalls, create a picturesque setting that has inspired artists and nature lovers for generations. The serene Merced River flows through the valley, adding to its tranquility. Hiking or simply strolling through the valley unveils breathtaking vistas, including the famous Tunnel View outlook. Whether you're a landscape painter, a wildlife enthusiast, or someone seeking the beauty of a mountain valley, Yosemite National Park's Yosemite Valley is a captivating destination that captures the essence of natural splendor."
+        }
+        
+      ]
     }
   ]
 }
