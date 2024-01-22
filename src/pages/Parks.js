@@ -12,21 +12,14 @@ function Parks(){
             .then(data => setParks(data))
     }, [])
 
-
+    const parksDisplay = parks.map((park) => <ParkCard park = {park} key = {park.id} />)
     //fetches /parks from server and renders a ParkCard for each park
     return(
         <main>
             <h2>Welcome to the Parks!</h2>
             <p>Click "View Park" to view Park details and read reviews</p>
             <Card.Group itemsPerRow={8}>
-                <ParkCard park = {parks[0]}/>
-                <ParkCard park = {parks[0]}/>
-                <ParkCard park = {parks[0]}/>
-                <ParkCard park = {parks[0]}/>
-                <ParkCard park = {parks[0]}/>
-                <ParkCard park = {parks[0]}/>
-                <ParkCard park = {parks[0]}/>
-                <ParkCard park = {parks[0]}/>
+               {parksDisplay}
             </Card.Group> 
             <Outlet context={parks}/>
             

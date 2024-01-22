@@ -13,7 +13,7 @@ function ParkReviews({ park }) {
     <Segment.Group horizontal>
       <Segment>
       <Header as="h3">Submit a Review of the Park:</Header>
-        <ParkReviewForm />
+        <ParkReviewForm park ={park}/>
       </Segment>
       <Segment>
         <Comment.Group>
