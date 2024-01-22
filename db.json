@@ -813,5 +813,641 @@
         
       ]
     }
+  ],
+  "trips":[
+    {
+      "id": 11,
+      "park": "Yosemite National Park",
+      "url": "https://www.nps.gov/yose/index.htm",
+      "image": {
+        "credit": "NPS / Cindy Jacoby",
+        "title": "Half Dome",
+        "altText": "Granite dome with trace amounts of snow.",
+        "caption": "Half Dome is one of the most recognizable granitic formations in the world.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C84CF74-1DD8-B71B-0B9C7FF83F7C68EB.jpg"
+      },
+      "trip": "In winter, consider visiting Yosemite National Park for hiking in California. Some recommended winter trails in Yosemite National Park include:",
+      "activities": [
+        {
+          "name": "Yosemite Valley Loop Trail",
+          "description": "This trail offers iconic views of Yosemite Valley and landmarks like El Capitan and Bridalveil Fall."
+        },
+        {
+          "name": "Mirror Lake Trail",
+          "description": "A scenic trail that takes you to a reflective lake with stunning views of Half Dome."
+        },
+        {
+          "name": "Lower Yosemite Falls Trail",
+          "description": "An easy hike leading to the base of Lower Yosemite Fall, providing impressive winter waterfall views."
+        },
+        {
+          "name": "Mariposa Grove of Giant Sequoias",
+          "description": "Explore this grove to see giant sequoia trees, including the famous Grizzly Giant and California Tunnel Tree."
+        }
+      ],
+      "reminder": "Remember to check trail conditions and accessibility in winter, and be prepared for colder temperatures. Always follow safety guidelines and regulations provided by the park."
+    },
+    {
+      "id": 12,
+      "park": "Lassen Volcanic National Park",
+      "url": "https://www.nps.gov/lavo/index.htm",
+      "image": {
+        "credit": "NPS Photo",
+        "title": "A Fisherman's Paradise",
+        "altText": "A fisherman casts a line from a boat below a snow-dotted volcanic peak.",
+        "caption": "Manzanita Lake offers spectacular catch-and-release fishing in the shadow of volcanoes.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C874252-1DD8-B71B-0B6BC0D39B9A51C2.jpg"
+      },
+      "trip": "If you're interested in winter fishing in California, consider visiting Lassen Volcanic National Park. Here are some activities you can do in the winter at Lassen Volcanic National Park:",
+      "activities": [
+        {
+          "name": "Manzanita Lake",
+          "description": "This lake within the park offers fishing opportunities. It is stocked with rainbow trout, and winter fishing can be a serene experience with snow-covered landscapes."
+        },
+        {
+          "name": "Hat Lake",
+          "description": "Another fishing spot in the park, Hat Lake is known for its brook and rainbow trout. Ice fishing may be possible in the winter."
+        },
+        {
+          "name": "Snowshoeing or Cross-Country Skiing",
+          "description": "While not directly related to fishing, Lassen Volcanic National Park offers winter sports like snowshoeing and cross-country skiing. You can enjoy the snowy landscapes and explore different areas of the park."
+        }
+      ],
+      "reminder": "Make sure to check fishing regulations, obtain any required permits, and be aware of safety considerations for winter activities. Always follow park guidelines to ensure a positive experience."
+    },
+    {
+      "id": 13,
+      "park": "Joshua Tree National Park",
+      "url": "https://www.nps.gov/jotr/index.htm",
+      "image": {
+        "credit": "NPS/Hannah Schwalbe",
+        "title": "Hidden Valley Hiker",
+        "altText": "hiker looks over Hidden Valley",
+        "caption": "Scrambling to the top of boulders in Joshua Tree can get you a great view.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C85E84D-1DD8-B71B-0B188E7820D60F14.jpg"
+      },
+      "trip": "For winter birdwatching, consider Joshua Tree National Park. While it's known for its unique desert landscape, it also offers birdwatching opportunities. Here are some activities you can do for birdwatching in Joshua Tree National Park:",
+      "activities": [
+        {
+          "name": "Barker Dam Nature Trail",
+          "description": "This short trail takes you to Barker Dam, where you may spot various bird species, especially around the water source."
+        },
+        {
+          "name": "Hidden Valley Nature Trail",
+          "description": "Explore Hidden Valley, a popular area for birdwatching. Look for desert-adapted birds and wildlife in this scenic valley."
+        },
+        {
+          "name": "Keys View",
+          "description": "While not a trail, Keys View provides a panoramic vista where you might spot birds soaring above the desert landscape."
+        },
+        {
+          "name": "Skull Rock",
+          "description": "This unique rock formation is accessible from the road, and you might encounter birds in the surrounding areas."
+        }
+      ],
+      "reminder": "Remember to bring binoculars, a field guide, and be mindful of the desert environment. Check for any ranger-led programs or birdwatching events that may be happening during your visit."
+    },
+    {
+      "id": 14,
+      "park": "Channel Islands National Park",
+      "url": "https://www.nps.gov/chis/index.htm",
+      "image": {
+        "credit": "Tim Hauf",
+        "title": "Inspiration Point by Tim Hauf, Channel Islands NP",
+        "altText": "Steep, rugged ocean cliffs extending in an island chain.",
+        "caption": "Inspiration Point, Anacapa Island: One of the most spectacular views in the park can be found from Inspiration Point. Looking to the west, one may see Middle and West Anacapa, with Santa Cruz Island in the distance.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/8DE774D1-CB22-37F2-D826E3F0A73D303A.jpg"
+      },
+      "trip": "For winter paddling in California, consider visiting Channel Islands National Park. Here are some activities you can do for paddling at Channel Islands National Park:",
+      "activities": [
+        {
+          "name": "Sea Cave Kayaking",
+          "description": "Explore the sea caves around Santa Cruz Island. Guided kayaking tours are available, offering a chance to paddle through caves and coastal areas."
+        },
+        {
+          "name": "Scorpion Anchorage",
+          "description": "Launch your kayak from Scorpion Anchorage on Santa Cruz Island. This area provides opportunities for both sea kayaking and snorkeling in the kelp forests."
+        },
+        {
+          "name": "Anacapa Island",
+          "description": "Paddle around Anacapa Island, known for its iconic arch and sea cliffs. This island offers a unique paddling experience with opportunities to spot marine life."
+        },
+        {
+          "name": "Wildlife Watching",
+          "description": "While paddling, keep an eye out for marine wildlife such as dolphins, seals, and seabirds. The park is rich in biodiversity, and paddling allows you to experience it up close."
+        }
+      ],
+      "reminder": "Ensure you have the appropriate paddling gear, check weather conditions, and consider joining guided tours for a safe and enjoyable experience. Always follow park regulations to protect the delicate marine ecosystem."
+    },
+    {
+      "id": 15,
+      "park": "Joshua Tree National Park",
+      "url": "https://www.nps.gov/jotr/index.htm",
+      "image":{
+        "credit": "NPS/Brad Sutton",
+        "title": "Jumbo Rocks at Sunset",
+        "altText": "people climbing on boulders are silhouetted against a colorful sunset sky",
+        "caption": "Jumbo Rocks Campground is a fun place to explore the Joshua Tree's bouldered landscape.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C85EDAE-1DD8-B71B-0B3E7EAC7E299A23.jpg"
+      },
+      "trip": "If you're interested in winter rock climbing in California, consider Joshua Tree National Park. Here are some activities you can do for rock climbing at Joshua Tree in the winter:",
+      "activities": [
+        {
+          "name": "Rock Climbing Routes",
+          "description": "Joshua Tree is renowned for its excellent rock climbing opportunities. There are numerous routes of varying difficulty levels. Some popular climbing areas include Hidden Valley, Ryan Mountain, and Intersection Rock."
+        },
+        {
+          "name": "Keys View",
+          "description": "While not a climbing activity, Keys View provides stunning panoramic views of the landscape, including the rocks you might be climbing. It's a great spot to relax and take in the scenery."
+        },
+        {
+          "name": "Guided Climbing Tours",
+          "description": "If you're new to rock climbing or want guidance, consider joining a guided climbing tour. There are experienced guides who can help you navigate the routes safely."
+        },
+        {
+          "name": "Indian Cove Campground",
+          "description": "This area is known for its bouldering opportunities. It's a great place for climbers of all levels to practice their skills on the boulders."
+        }
+      ],
+      "reminder": "Ensure you have the necessary climbing gear, check for any park regulations or seasonal closures, and be aware of safety precautions for winter climbing. Always follow Leave No Trace principles to preserve the park's natural beauty."
+    },
+    {
+      "id": 21,
+      "park": "Death Valley National Park",
+      "url": "https://www.nps.gov/deva/index.htm",
+      "image":{
+        "credit": "NPS / Kurt Moses",
+        "title": "A rare superbloom of Desert Gold.",
+        "altText": "a field of yellow flowers with a mountain",
+        "caption": "About once a decade, rains at the right times can lead to a rare superbloom!",
+        "url": "https://www.nps.gov/common/uploads/structured_data/1A18EC97-EB1E-7D32-05BE1B8D08719225.jpg"
+      },
+      "trip": "Death Valley National Park is an excellent choice for spring hiking, there are several exciting trails and activities to explore. Spring is an excellent time to visit as temperatures are more moderate. Here are some hiking activities you can do in Death Valley during the spring:",
+      "activities":[
+        {
+          "name": "Golden Canyon Trail",
+          "description": "Hike the Golden Canyon Trail, known for its colorful rock formations. You can explore the trail as a day hike or continue on to connect with the Red Cathedral or the Gower Gulch Loop."
+        },
+        {
+          "name": "Desolation Canyon",
+          "description": "Explore Desolation Canyon, offering a less crowded hiking experience. The trailhead is located near Dante's View, and you can enjoy views of the Funeral Mountains and Amargosa Range."
+        },
+        {
+          "name": "Wildrose Peak",
+          "description": "For a more challenging hike, consider summiting Wildrose Peak. The trailhead is located at Charcoal Kilns, and the hike offers panoramic views of Death Valley and the surrounding mountains."
+        },
+        {
+          "name": "Badwater Salt Flats",
+          "description": "Explore the Badwater Basin area and take a walk out onto the salt flats. The hexagonal salt polygons create an otherworldly landscape."
+        }
+      ],
+      "reminder": "Always check trail conditions, carry sufficient water, wear appropriate clothing, and be aware of the desert environment. Spring offers pleasant temperatures for hiking, allowing you to explore the diverse landscapes of Death Valley National Park."
+    },
+    {
+      "id": 22,
+      "park": "Lassen Volcanic National Park",
+      "url": "https://www.nps.gov/lavo/index.htm",
+      "image": {
+        "credit": "NPS Photo",
+        "title": "A Fisherman's Paradise",
+        "altText": "A fisherman casts a line from a boat below a snow-dotted volcanic peak.",
+        "caption": "Manzanita Lake offers spectacular catch-and-release fishing in the shadow of volcanoes.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C874252-1DD8-B71B-0B6BC0D39B9A51C2.jpg"
+      },
+      "trip": "If you're interested in winter fishing in California, consider visiting Lassen Volcanic National Park. Here are some activities you can do in the winter at Lassen Volcanic National Park:",
+      "activities": [
+        {
+          "name": "Manzanita Lake",
+          "description": "This lake is stocked with rainbow trout and provides excellent fishing opportunities. You can enjoy fishing from the shore or bring a small boat or kayak."
+        },
+        {
+          "name": "Summit Lake",
+          "description": "Another fishing spot in the park, Summit Lake is known for its brook and rainbow trout. It offers a serene setting surrounded by volcanic landscapes."
+        },
+        {
+          "name": "Hat Lake",
+          "description": "This lake is stocked with rainbow trout and provides excellent fishing opportunities. You can enjoy fishing from the shore or bring a small boat or kayak."
+        },
+        {
+          "name": "Kings Creek Falls Trail",
+          "description": "While not a fishing activity, this trail takes you to Kings Creek Falls, offering scenic views and a pleasant hike after your fishing adventure."
+        }
+      ],
+      "reminder": "Make sure to check fishing regulations, obtain any required permits, and be aware of safety considerations for spring fishing. Always follow park guidelines to ensure a positive experience."
+    },
+    {
+      "id": 23,
+      "park": "Yosemite National Park",
+      "url": "https://www.nps.gov/yose/index.htm",
+      "image": {
+        "credit": "NPS Photo",
+        "title": "Upper Yosemite Fall and Merced River in spring",
+        "altText": "Upper Yosemite Fall and Merced River in spring",
+        "caption": "Upper Yosemite Fall and Merced River in spring",
+        "url": "https://www.nps.gov/common/uploads/structured_data/05383E91-AA28-2DDC-AB517507594F9FA6.jpg"
+      },
+      "trip": "For spring birdwatching, consider Yosemite National Park. Here are some activities you can do for birdwatching at Yosemite during the spring:",
+      "activities": [
+        {
+          "name": "Yosemite Valley",
+          "description": "Explore the meadows and forests of Yosemite Valley, where you may spot a variety of bird species. Look for songbirds, raptors, and waterfowl."
+        },
+        {
+          "name": "Tuolumne Meadows",
+          "description": "As spring arrives, Tuolumne Meadows becomes accessible. This high-country meadow offers a different birdwatching experience with alpine species and stunning mountain views."
+        },
+        {
+          "name": "Wawona Meadow",
+          "description": "Take a stroll through Wawona Meadow, located in the southern part of the park. It's a peaceful area where you can observe birds in a serene environment."
+        },
+        {
+          "name": "Bridalveil Fall Area",
+          "description": "The area around Bridalveil Fall is not only spectacular for the waterfall but also for birdwatching. Keep an eye out for birds in the surrounding trees and meadows."
+        }
+      ],
+      "reminder": "Bring binoculars, a field guide, and be patient as you explore the diverse habitats within the park. Check for any ranger-led birdwatching programs or events that may enhance your experience. Always follow ethical birdwatching practices to minimize disturbance to the wildlife."
+    },
+    {
+      "id": 24,
+      "park": "Channel Islands National Park",
+      "url": "https://www.nps.gov/chis/index.htm",
+      "image": {
+        "credit": "Tim Hauf, timhaufphotography.com",
+        "title": "Point Bennet by Tim Hauf",
+        "altText": "Brown seals and sea lions on white sand beach with blue water and partly cloudy sky.",
+        "caption": "Point Bennet, San Miguel Island: One of the greatest concentrations of wildlife in the world occurs on San Miguel with over 100,000 pinnipeds gathering to breed, pup, and rest.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/8E1AE30B-DBDB-C193-C1023F2C7591ABA0.jpg"
+      },
+      "trip": "If you're looking for extensive paddling opportunities, consider Channel Islands National Park. It provides excellent paddling experiences. Here are some activities you can do for paddling at Channel Islands National Park during the spring:",
+      "activities": [
+        {
+          "name": "Sea Kayaking",
+          "description": "Explore sea caves and coastal areas by taking a guided sea kayaking tour around Santa Cruz Island or other accessible areas."
+        },
+        {
+          "name": "Kayak and Snorkel Tours",
+          "description": "Some tour operators offer combined kayak and snorkel tours, allowing you to not only paddle along the coastline but also explore the underwater marine life."
+        },
+        {
+          "name": "Island Hopping by Kayak",
+          "description": "If conditions permit, you may be able to paddle between some of the Channel Islands. This can be a more adventurous and longer paddling experience."
+        },
+        {
+          "name": "Wildlife Watching",
+          "description": "While paddling, keep an eye out for marine wildlife such as dolphins, seals, and seabirds. The park is rich in biodiversity, and paddling allows you to experience it up close."
+        }
+      ],
+      "reminder": "Ensure you have the appropriate paddling gear, check weather conditions, and consider joining guided tours for a safe and enjoyable experience. Always follow park regulations to protect the delicate marine ecosystem."
+    },
+    {
+      "id": 25,
+      "park": "Yosemite National Park",
+      "url": "https://www.nps.gov/yose/index.htm",
+      "image": {
+        "credit": "NPS Photo/ Christine Fey",
+        "title": "El Capitan",
+        "altText": "El Capitan and reflection in Merced River with some low clouds",
+        "caption": "El Capitan rises over 3,000 feet above the floor of Yosemite Valley.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/058C8410-D5BA-32F4-BC468014AF42CB0B.jpg"
+      },
+      "trip": "A great option for spring rock climbing in California is Yosemite National Park. Yosemite is famous for its granite cliffs and offers challenging rock climbing opportunities. Here are some activities you can do for rock climbing at Yosemite National Park during the spring:",
+      "activities": [
+        {
+          "name":"El Capitan",
+          "description": "One of the most iconic climbing destinations globally, El Capitan offers challenging big wall climbs. Climbers from around the world come to Yosemite to attempt its legendary routes."
+        },
+        {
+          "name":"Half Dome",
+          "description": "Climbing Half Dome is a challenging adventure, and the park's permit system controls access to this iconic granite formation. The cables to the summit are typically put in place during the late spring."
+        },
+        {
+          "name":"Cathedral Peak",
+          "description": "Located in the Tuolumne Meadows area, Cathedral Peak provides a beautiful setting for rock climbing with stunning views of the surrounding landscape."
+        },
+        {
+          "name":"Royal Arches",
+          "description": "This multi-pitch climb is known for its classic beauty and is a popular choice for those looking for a challenging yet rewarding experience."
+        }
+      ],
+      "reminder": "Ensure you have the necessary climbing gear, check for any permit requirements, and be aware of the specific regulations for climbing in Yosemite. The spring season in Yosemite offers pleasant temperatures and is an ideal time for climbers to enjoy the park's vertical challenges."
+    },
+    {
+      "id": 31,
+      "park": "Sequoia and Kings Canyon National Parks",
+      "url": "https://www.nps.gov/seki/index.htm",
+      "image":{
+        "credit": "NPS/Rick Cain",
+        "title": "Kings Canyon",
+        "altText": "A deep canyon with a forested floor and steep granite cliffs",
+        "caption": "The Glaciers carved the Kings Canyon's steep granite cliffs, leaving a wide U-shaped valley.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7A250B-1DD8-B71B-0BCF61A89A8B2970.jpg"
+      },
+      "trip": "In summer, consider visiting Sequoia and Kings Canyon National Parks for hiking in California. Here are some activities you can do for hiking at these parks during the summer:",
+      "activities":[
+        {
+          "name": "Moro Rock Trail",
+          "description": "Climb to the top of Moro Rock for breathtaking panoramic views of the Great Western Divide and the High Sierra. The trail provides a unique perspective on the park's landscape."
+        },
+        {
+          "name": "Lodgepole Area Trails",
+          "description": "Explore the Lodgepole area, where various trails offer a range of hiking experiences. The Twin Lakes Trail and the Tokopah Falls Trail are popular choices."
+        },
+        {
+          "name": "Alta Peak Trail",
+          "description": "For a more challenging hike, consider the Alta Peak Trail. This trail takes you to an elevation with stunning vistas of the surrounding mountains and valleys."
+        },
+        {
+          "name": "Crescent Meadow Loop",
+          "description": "Enjoy an easier stroll through Crescent Meadow, surrounded by giant sequoia trees. This loop is suitable for all skill levels and offers a peaceful hiking experience."
+        }
+      ],
+      "reminder": "Check trail conditions and be prepared for varying elevations and temperatures. Bring plenty of water, wear appropriate clothing, and be aware of wildlife. Consider joining ranger-led programs or nature walks to enhance your understanding of the park's ecosystems and history. Always follow Leave No Trace principles to minimize your impact on the environment."
+    },
+    {
+      "id": 32,
+      "park": "Yosemite National Park",
+      "url": "https://www.nps.gov/yose/index.htm",
+      "image": {
+        "credit": "NPS",
+        "title": "Glen Aulin",
+        "altText": "Mountains reflecting in water",
+        "caption": "Glen Auilin is one of five High Sierra Camps, located in the Yosemite high country.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C84C82D-1DD8-B71B-0B8D6902B62369E2.jpg"
+      },
+      "trip": "For summer fishing in California, consider visiting Yosemite National Park. Here are some activities you can do for fishing at Yosemite during the summer:",
+      "activities": [
+        {
+          "name": "Merced River",
+          "description": "Fish along the Merced River, which flows through Yosemite Valley. This iconic river offers opportunities to catch rainbow and brown trout."
+        },
+        {
+          "name": "Tuolumne River",
+          "description": "Explore fishing opportunities along the Tuolumne River in the high-country Tuolumne Meadows area. The river provides a different fishing experience with stunning alpine surroundings."
+        },       
+        {
+          "name": "Tenaya Lake",
+          "description": "Fish in the clear waters of Tenaya Lake. This high-elevation lake is accessible by Tioga Road during the summer months and offers a serene setting for fishing."
+        },       
+        {
+          "name": "Hetch Hetchy Reservoir",
+          "description": "Located in the northwest part of the park, Hetch Hetchy Reservoir provides fishing opportunities for rainbow and brown trout. A permit is required for fishing in this area."
+        }
+      ],
+      "reminder": "Before fishing, check fishing regulations, obtain any necessary permits, and be aware of seasonal restrictions. Always follow Leave No Trace principles and practice ethical fishing to preserve the park's natural beauty and aquatic ecosystems."
+    },
+    {
+      "id": 33,
+      "park": "Pinnacles National Park",
+      "url": "https://www.nps.gov/pinn/index.htm",
+      "image":{
+        "username": "RaptorWatcher",
+        "title": "Aerial Spectacle of Condors",
+        "content": "Pinnacles National Park is a haven for bird watchers and those seeking the awe-inspiring sight of California condors in flight. The park's rugged cliffs and expansive landscapes provide the perfect backdrop for witnessing these majestic birds soaring through the sky. Hiking trails with panoramic views offer opportunities to observe not only condors but also a variety of other bird species. The park's unique blend of geological features and diverse ecosystems make it a captivating destination for both nature enthusiasts and bird lovers. Whether you're an avid birder, a photographer, or simply a fan of wildlife, Pinnacles National Park delivers an aerial spectacle that leaves a lasting impression."
+      },
+      "trip": "An excellent choice for summer birdwatching is Pinnacles National Park, which has a dedicated California Condor Recovery Program, and you have a good chance of spotting these majestic birds in the park. Here are some activities you can do for birdwatching at Pinnacles National Park:",
+      "activities": [
+        {
+          "name": "High Peaks Trail",
+          "description": "Hike the High Peaks Trail, which provides opportunities to see California Condors soaring in the sky. The High Peaks area is a known habitat for these critically endangered birds."
+        },
+        {
+          "name": "Condor Gulch Trail",
+          "description": "This trail offers panoramic views and is another location where you might encounter California Condors. Keep an eye on the skies and cliffs for their presence."
+        },
+        {
+          "name": "Bear Gulch Visitor Center",
+          "description": "Check with the Bear Gulch Visitor Center for information on recent California Condor sightings and updates on their recovery program. Rangers may provide tips on where to spot these birds."
+        },
+        {
+          "name": "Guided Tours",
+          "description": "Join a guided tour or program offered by the park. Rangers may lead specific tours focused on California Condor observation and share valuable information about their conservation efforts."
+        }
+      ],
+      "reminder": "Remember to bring binoculars for a closer look, and be respectful of any guidelines provided by park officials to protect these endangered birds. California Condors are a remarkable species, and observing them in their natural habitat is a unique experience."
+    },
+    {
+      "id": 34,
+      "park": "Lassen Volcanic National Park",
+      "url": "https://www.nps.gov/lavo/index.htm",
+      "image": {
+        "credit": "NPS Photo",
+        "title": "A Fisherman's Paradise",
+        "altText": "A fisherman casts a line from a boat below a snow-dotted volcanic peak.",
+        "caption": "Manzanita Lake offers spectacular catch-and-release fishing in the shadow of volcanoes.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C874252-1DD8-B71B-0B6BC0D39B9A51C2.jpg"
+      },
+      "trip": "For summer paddling in California, consider visiting Lassen Volcanic National Park. While the park is not primarily known for extensive paddling opportunities, there are lakes where you can enjoy a peaceful paddling experience. Here are some activities you can do for paddling at Lassen Volcanic National Park during the summer:",
+      "activities": [
+        {
+          "name": "Manzanita Lake",
+          "description": "Paddle on Manzanita Lake, located near the park entrance. This serene lake offers views of Lassen Peak and is suitable for kayaking and canoeing."
+        },
+        {
+          "name": "Summit Lake",
+          "description": "Explore paddling opportunities on Summit Lake, situated in a volcanic basin. Paddling on Summit Lake allows you to enjoy the surrounding landscapes and potentially spot wildlife."
+        },
+        {
+          "name": "Reflection Lake",
+          "description": "While smaller than Manzanita Lake, Reflection Lake provides a tranquil paddling experience with reflections of the surrounding scenery."
+        },
+        {  
+          "name": "Kayak or Canoe Rental",
+          "description": "If you don't have your own equipment, check if there are kayak or canoe rentals available near the park entrance or within the park."
+        }
+      ],
+      "reminder": "Always check for any restrictions, permits, or guidelines related to paddling in the park. Be prepared for varying weather conditions in the summer, and ensure you have the necessary safety equipment for paddling activities. Enjoy the peaceful waters and the unique volcanic landscapes of Lassen Volcanic National Park."
+    },
+    {
+      "id": 35,
+      "park": "Joshua Tree National Park",
+      "url": "https://www.nps.gov/jotr/index.htm",
+      "image":{
+        "credit": "NPS/Brad Sutton",
+        "title": "Jumbo Rocks at Sunset",
+        "altText": "people climbing on boulders are silhouetted against a colorful sunset sky",
+        "caption": "Jumbo Rocks Campground is a fun place to explore the Joshua Tree's bouldered landscape.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C85EDAE-1DD8-B71B-0B3E7EAC7E299A23.jpg"
+      },
+      "trip": "For summer rock climbing in California, Joshua Tree National Park is an outstanding choice. Joshua Tree is renowned for its unique rock formations and offers a variety of climbing opportunities. Here are some activities you can do for rock climbing at Joshua Tree National Park during the summer:",
+      "activities": [
+        {
+          "name": "Hidden Valley Campground Area",
+          "description": "Explore the Hidden Valley area, which is popular for both traditional and sport climbing. The campground serves as a convenient base for climbers."
+        },
+        {
+          "name": "Ryan Mountain",
+          "description": "Climb to the summit of Ryan Mountain for breathtaking panoramic views of the Great Western Divide and the High Sierra. While not a traditional rock climbing activity, it's a rewarding hike with some rock scrambling."
+        },
+        {
+          "name": "Intersection Rock",
+          "description": "This iconic formation is a popular spot for rock climbing. It offers a variety of routes suitable for different skill levels."
+        },
+        {
+          "name": "Guided Climbing Tours",
+          "description": "If you're new to rock climbing or want professional guidance, consider joining a guided climbing tour. Experienced guides can help you navigate the routes safely."
+        }
+      ],
+      "reminder": "Before engaging in rock climbing, ensure you have the necessary gear, check for any seasonal closures, and be aware of safety precautions. Joshua Tree is a world-class destination for climbers, and the summer weather provides optimal conditions for this outdoor activity. Always follow Leave No Trace principles to preserve the park's natural beauty."
+    },
+    {
+      "id": 41,
+      "park": "Redwoods National Park",
+      "url": "https://www.nps.gov/redw/index.htm",
+      "image": {
+          "credit": "NPS Photo/ Steve Olson",
+          "title": "Trillium Falls",
+          "altText": "A small waterfall cascades past different trees",
+          "caption": "The Trillium Falls Trail is a popular, easy and family friendly walk.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/CD7FF0D6-954C-5A30-38B0BB3145407CB6.jpg"
+      },
+      "trip": "For fall hiking, visiting Redwood National and State Parks is a great choice, as the weather is often pleasant, and you can enjoy the beauty of the changing foliage. Here are some hiking activities you can do in Redwood National and State Parks during the fall:",
+      "activities": [
+        {
+          "name": "Trillium Falls Trail",
+          "description": "Explore the Trillium Falls Trail, a scenic route that takes you through lush forests and leads to a beautiful waterfall. The trail offers a mix of redwoods and other plant life."
+        },
+        {
+          "name": "Fern Canyon",
+          "description": "Hike through Fern Canyon, a unique canyon with lush fern-covered walls. The canyon is surrounded by towering redwoods and is a magical experience. Be prepared for creek crossings."
+        },       
+        {
+          "name": "Tall Trees Grove",
+          "description": "If you secure a permit (required for access), explore the Tall Trees Grove. This area is home to some of the tallest redwoods in the world, and the trail takes you through a dense redwood forest."
+        },       
+        {
+          "name": "Coastal Trails",
+          "description": "Explore coastal trails like the Coastal Trail or the California Coastal Trail for breathtaking views of the Pacific Ocean. These trails often provide a mix of coastal bluffs and redwood forest scenery."
+        }
+      ],
+      "reminder": "Before your hike, check trail conditions, obtain any necessary permits, and be aware of any seasonal closures. Fall is a fantastic time to experience the redwoods as the foliage changes, and the weather is generally mild. Don't forget to bring layers, sturdy footwear, and enjoy the serene beauty of these ancient forests."
+    },
+    {
+      "id": 42,
+      "park": "Sequoia and Kings Canyon National Parks",
+      "url": "https://www.nps.gov/seki/index.htm",
+      "image":{
+        "credit": "NPS/Rick Cain",
+        "title": "Kings Canyon",
+        "altText": "A deep canyon with a forested floor and steep granite cliffs",
+        "caption": "The Glaciers carved the Kings Canyon's steep granite cliffs, leaving a wide U-shaped valley.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7A250B-1DD8-B71B-0BCF61A89A8B2970.jpg"
+      },
+      "trip": "For fall fishing, consider visiting Sequoia and Kings Canyon National Parks. Here are some activities you can do for fishing at these parks during the fall:",
+      "activities":[
+        {
+          "name": "Kings River",
+          "description": "Fish along the Kings River, which flows through Kings Canyon National Park. The river offers opportunities to catch rainbow and brown trout."
+        },
+        {
+          "name": "Marble Fork Kaweah River",
+          "description": "Explore fishing opportunities along the Marble Fork Kaweah River in Sequoia National Park. This river is known for its scenic beauty and diverse fish species."
+        },
+        {
+          "name": "Dorst Creek",
+          "description": "Dorst Creek Campground in Sequoia National Park has nearby creeks where you can enjoy fishing. It's a peaceful area with beautiful surroundings."
+        },
+        {
+          "name": "Grant Grove Area Lakes",
+          "description": "Explore lakes in the Grant Grove area of Kings Canyon National Park, such as Grant Lake and others. These lakes provide a tranquil setting for fall fishing."
+        }
+      ],
+      "reminder": "Check fishing regulations, obtain any necessary permits, and be aware of seasonal changes in fish behavior. Always follow Leave No Trace principles and practice ethical fishing to preserve the parks' natural beauty and aquatic ecosystems. Fall in Sequoia and Kings Canyon National Parks offers a serene and scenic environment for anglers."
+    },
+    {
+      "id": 43,
+      "park": "Yosemite National Park",
+      "url": "https://www.nps.gov/yose/index.htm",
+      "image": {
+        "credit": "NPS / Cindy Jacoby",
+        "title": "Giant Sequoia Trees in the Mariposa Grove of Giant Sequoias",
+        "altText": "Cluster of tall trees with cloudy sky.",
+        "caption": "Yosemite National Park's massive giant sequoias (Sequoiadendron giganteum) live in three groves in the park. The most famous of these is the Mariposa Grove, which contains about 500 mature giant sequoias.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C8560E1-1DD8-B71B-0BD3183636F4B861.jpg"
+      },
+      "trip": "An excellent option for fall birdwatching is Yosemite National Park. Here are some activities you can do for birdwatching at Yosemite during the fall:",
+      "activities": [
+        {
+          "name": "Valley Floor",
+          "description": "Explore the meadows and forests of Yosemite Valley, where you may spot a variety of bird species. Look for songbirds, raptors, and waterfowl."
+        },
+        {
+          "name": "Tuolumne Meadows",
+          "description": "As temperatures cool down, Tuolumne Meadows becomes an ideal location for fall birdwatching. Hike the various trails in this high-country meadow for breathtaking views and diverse birdwatching opportunities."
+        },
+        {
+          "name": "Mariposa Grove",
+          "description": "While known for giant sequoia trees, the Mariposa Grove also provides a habitat for various bird species. Keep an eye out for woodpeckers and other woodland birds."
+        },       
+        {
+          "name": "Wawona Meadow",
+          "description": "Take a stroll through Wawona Meadow, located in the southern part of the park. It's a peaceful area where you can observe birds in a serene environment."
+        }
+      ],
+      "reminder": "Bring binoculars, a field guide, and be patient as you explore the diverse habitats within the park. Check for any ranger-led birdwatching programs or events that may enhance your experience. Always follow ethical birdwatching practices to minimize disturbance to the wildlife."
+    },
+    {
+      "id": 44,
+      "park": "Sequoia and Kings Canyon National Parks",
+      "url": "https://www.nps.gov/seki/index.htm",
+      "image":{
+        "credit": "NPS/Rick Cain",
+        "title": "Kings Canyon",
+        "altText": "A deep canyon with a forested floor and steep granite cliffs",
+        "caption": "The Glaciers carved the Kings Canyon's steep granite cliffs, leaving a wide U-shaped valley.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C7A250B-1DD8-B71B-0BCF61A89A8B2970.jpg"
+      },
+      "trip": "If you're looking for a national park with fall paddling opportunities, consider Sequoia and Kings Canyon National Parks. While these parks are not traditionally known for extensive paddling, there are lakes where you can enjoy a peaceful paddling experience. Here are some activities you can do for paddling at Sequoia and Kings Canyon National Parks during the fall:",
+      "activities":[
+        {
+          "name": "Hume Lake",
+          "description": "Located in Sequoia National Forest, near the parks, Hume Lake offers kayaking, canoeing, and paddleboarding opportunities. Enjoy the serene mountain lake surrounded by forests."
+        },
+        {
+          "name": "Grant Grove Area Lakes",
+          "description": "Explore lakes in the Grant Grove area of Kings Canyon National Park, such as Grant Lake and others. These lakes provide a tranquil setting for fall paddling."
+        },
+        {
+          "name": "Boat Rentals",
+          "description": "Check if there are boat rental facilities near the lakes, allowing you to easily access paddling equipment if you don't have your own."
+        },
+        {
+          "name": "Wildlife Observation",
+          "description": "While paddling, keep an eye out for wildlife such as birds and possibly other animals along the shores."
+        }
+      ],
+      "reminder": "Always check for any restrictions, permits, or guidelines related to paddling in the parks. Be prepared for changing weather conditions in the fall, and ensure you have the necessary safety equipment for paddling activities. Enjoy the peaceful waters and the natural beauty of Sequoia and Kings Canyon National Parks."
+    },
+    {
+      "id": 45,
+      "park": "Yosemite National Park",
+      "url": "https://www.nps.gov/yose/index.htm",
+      "image": {
+        "credit": "NPS Photo/ Christine Fey",
+        "title": "El Capitan",
+        "altText": "El Capitan and reflection in Merced River with some low clouds",
+        "caption": "El Capitan rises over 3,000 feet above the floor of Yosemite Valley.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/058C8410-D5BA-32F4-BC468014AF42CB0B.jpg"
+      },
+      "trip": "A great option for spring rock climbing in California is Yosemite National Park. Yosemite is famous for its granite cliffs and offers challenging rock climbing opportunities. Here are some activities you can do for rock climbing at Yosemite National Park during the spring:",
+      "activities": [
+        {
+          "name":"El Capitan",
+          "description": "Challenge yourself with climbs on El Capitan, one of the world's most famous granite monoliths. There are various routes catering to different skill levels, and climbing El Capitan is a memorable experience for any climber."
+        },
+        {
+          "name":"Half Dome",
+          "description": "Consider climbing the cables to the summit of Half Dome for a thrilling ascent and panoramic views of the Yosemite Valley. Permits are required, and the cables are typically up until early fall."
+        },
+        {
+          "name":"Cathedral Peak",
+          "description": "Explore the Cathedral Rocks area, featuring challenging climbs with stunning views of the Yosemite Valley. It's a great location for those looking for a mix of adventure and scenery."
+        },
+        {
+          "name":"Royal Arches",
+          "description": "This classic multi-pitch climb offers a beautiful route up the granite cliffs. The Royal Arches area is known for its scenic beauty and is a popular choice for fall climbing."
+        }
+      ],
+      "reminder": "Ensure you have the necessary climbing gear, check for any permit requirements, and be aware of the specific regulations for climbing in Yosemite. Fall in Yosemite offers crisp temperatures and beautiful foliage, creating an ideal setting for rock climbing enthusiasts."
+    }
   ]
 }

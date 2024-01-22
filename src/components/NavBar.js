@@ -23,6 +23,12 @@ function NavBar() {
         >
           Contact
         </NavLink>
+        <NavLink
+          to="/trip-planner"
+          className="item"
+        >
+          Trip Planner
+        </NavLink>
       </div>
     </Menu>
   );
