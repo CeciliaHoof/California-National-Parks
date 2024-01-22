@@ -9,11 +9,14 @@ function ParkReviews({ park }) {
   const reviewDisplay = reviews.map((review) => (
     <Review key={review.id} review={review} />
   ));
+
   return (
     <Segment.Group horizontal>
       <Segment>
       <Header as="h3">Submit a Review of the Park:</Header>
+
         <ParkReviewForm park ={park}/>
+
       </Segment>
       <Segment>
         <Comment.Group>
