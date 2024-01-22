@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="hoCVPFIHtCYCNbDTjegN">
-        <mxGraphModel dx="103" dy="157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="246" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -94,27 +94,6 @@
                 </mxCell>
                 <mxCell id="GsgR1pGMC72x6-u9tPVT-29" value="ParkInfo&lt;br&gt;props: park&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font size=&quot;1&quot;&gt;state reviews: park.reviews&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="425.5" y="530" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-36" value="Image" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="370" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-37" value="Image" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="210" y="380" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-38" value="Image" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="390" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-39" value="Image" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="400" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-40" value="ParkImage&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;prop: imageObj&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="240" y="410" width="80" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GsgR1pGMC72x6-u9tPVT-12" target="GsgR1pGMC72x6-u9tPVT-36" edge="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="380" y="330" as="sourcePoint"/>
-                        <mxPoint x="430" y="280" as="targetPoint"/>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="GsgR1pGMC72x6-u9tPVT-43" value="ParkDetails:&lt;br&gt;client route: &quot;/parks/:id&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;font size=&quot;1&quot;&gt;prop: park&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="414.5" y="430" width="131" height="60" as="geometry"/>
