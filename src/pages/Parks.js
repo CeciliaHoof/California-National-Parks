@@ -16,7 +16,8 @@ function Parks(){
     //fetches /parks from server and renders a ParkCard for each park
     return(
         <main>
-            <h2>Here are the Parks!</h2>
+            <h2>Welcome to the Parks!</h2>
+            <p>Click "View Park" to view Park details and read reviews</p>
             <Card.Group itemsPerRow={8}>
                 <ParkCard park = {parks[0]}/>
                 <ParkCard park = {parks[0]}/>

@@ -1,6 +1,7 @@
 import { useParams, useOutletContext } from "react-router-dom";
 import { Segment, Image } from "semantic-ui-react";
-import ParkInfo from "../components/ParkInfo"
+import ParkInfo from "../components/ParkInfo";
+import ParkReviews from "../components/ParkReviews";
 
 function ParkDetails() {
   const params = useParams();
@@ -13,10 +14,7 @@ function ParkDetails() {
   }
   
   return(
-      <Segment>
-        <Image src={park.images[1].url} size={"big"} floated="left"/>
         <ParkInfo park={park}/>
-      </Segment>
   );
 };
 
