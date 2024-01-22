@@ -1,6 +1,6 @@
 import { Form, Segment } from "semantic-ui-react"
 
-function ParkReviewForm(){
+function ParkReviewForm({ park }){
     
     return(
         <Segment>
