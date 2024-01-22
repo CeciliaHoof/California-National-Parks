@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Page-1" id="hoCVPFIHtCYCNbDTjegN">
-        <mxGraphModel dx="246" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="308" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -84,16 +84,11 @@
                         <mxPoint x="480" y="430" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GsgR1pGMC72x6-u9tPVT-29" target="GsgR1pGMC72x6-u9tPVT-46" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="480" y="610"/>
-                            <mxPoint x="480" y="610"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="GsgR1pGMC72x6-u9tPVT-29" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="GsgR1pGMC72x6-u9tPVT-29" value="ParkInfo&lt;br&gt;props: park&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font size=&quot;1&quot;&gt;state reviews: park.reviews&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="425.5" y="530" width="120" height="60" as="geometry"/>
+                <mxCell id="GsgR1pGMC72x6-u9tPVT-29" value="ParkInfo&lt;br&gt;props: park" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="412.25" y="530" width="135.5" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="GsgR1pGMC72x6-u9tPVT-43" value="ParkDetails:&lt;br&gt;client route: &quot;/parks/:id&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;font size=&quot;1&quot;&gt;prop: park&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="414.5" y="430" width="131" height="60" as="geometry"/>
@@ -105,7 +100,13 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="GsgR1pGMC72x6-u9tPVT-46" value="ParkReviewForm&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;props:&lt;/font&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt; &lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;onAddReview&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;font size=&quot;1&quot;&gt;state: formData&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="425.5" y="620" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="410" y="710" width="135.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="GsgR1pGMC72x6-u9tPVT-46" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="ParkReviews&lt;br&gt;props: park&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;font size=&quot;1&quot;&gt;state reviews: park.reviews&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="620" width="135.5" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

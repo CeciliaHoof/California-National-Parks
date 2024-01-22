@@ -5,7 +5,7 @@ function Home(){
     //fetches /images from server and renders them with Image Gallery
     return(
         <main>
-            <h2>Welcome to California's National Parks Explorer!</h2>
+            <h2>Welcome to Our Guide to California's National Parks!</h2>
             <p>Embark on a journey through the breathtaking landscapes and diverse ecosystems of California's National Parks. Our website is your ultimate guide to discovering the wonders of these natural treasures. Immerse yourself in the beauty of iconic parks like Yosemite, Joshua Tree, and Sequoia, among others.</p>
             <ImageGallery />
             <div id="site-explanation">
