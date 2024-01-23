@@ -3,33 +3,30 @@ import { Menu } from "semantic-ui-react";
 
 function NavBar() {
   return (
-    <Menu className="menu">
-      <div className="right menu">
-        <NavLink
+    <Menu text>
+      <Menu.Item header>California's National Parks</Menu.Item>
+      <Menu.Menu size="small" position="right">
+        <Menu.Item as={NavLink}
           to="/"
-          className="item"
         >
           Home
-        </NavLink>
-        <NavLink
+        </Menu.Item>
+        <Menu.Item as={NavLink}
           to="/parks"
-          className="item"
         >
           Parks
-        </NavLink>
-        <NavLink
+        </Menu.Item>
+        <Menu.Item as={NavLink}
           to="/trip-planner"
-          className="item"
         >
           Trip Planner
-        </NavLink>
-        <NavLink
+        </Menu.Item>
+        <Menu.Item as={NavLink}
           to="/contact"
-          className="item"
         >
           Contact
-        </NavLink>
-      </div>
+        </Menu.Item>
+      </Menu.Menu>
     </Menu>
   );
 };

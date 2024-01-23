@@ -3,26 +3,26 @@ import TripForm from "../components/TripForm"
 import TripSuggestion from "../components/TripSuggestion"
 
 function TripPlanner(){
-    const [trips, setTrips] = useState([])
+    const [trip, setTrip] = useState([])
     const [selectedTrip, setSelectedTrip] = useState(0)
 
     useEffect(() => {
-        fetch('http://localhost:8001/trips')
+        fetch(`http://localhost:8001/trips/${selectedTrip}`)
             .then(resp => resp.json())
-            .then(data => setTrips(data))
-    }, [])
+            .then(data => setTrip(data))
+    }, [selectedTrip])
 
     function selectTrip(tripNum){
         setSelectedTrip(parseInt(tripNum))
     }
 
-    const tripPlan = trips.filter(trip => trip.id === selectedTrip)
-
     return(
         <main>
             <h2>Trip Planner</h2>
             <TripForm onSubmitForm={selectTrip}/>
-            <TripSuggestion trip={tripPlan}/>
+            {selectedTrip === 0? 
+                <h3>Make selections from the menus above to see a recommended National Park to visit along with suggested activities</h3> :
+                <TripSuggestion tripSuggestion={trip}/>}
         </main>
     )
 }
