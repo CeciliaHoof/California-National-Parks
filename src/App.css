@@ -37,14 +37,11 @@
   }
 }
 
-h1{
+#title{
   text-align: center;
+  font-size: 75px;
 }
 
 main{
   text-align: center;
-}
-
-#site-explanation{
-  display: flex;
 }

@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import { Header } from "semantic-ui-react";
 import "./App.css"
 
 function App(){
@@ -8,7 +9,6 @@ function App(){
     return(
         <>
             <header>
-                <h1>California's National Parks</h1>
                 <NavBar />
             </header>
             <Outlet />

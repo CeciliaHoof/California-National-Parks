@@ -1202,9 +1202,11 @@
       "park": "Pinnacles National Park",
       "url": "https://www.nps.gov/pinn/index.htm",
       "image": {
-        "username": "RaptorWatcher",
-        "title": "Aerial Spectacle of Condors",
-        "content": "Pinnacles National Park is a haven for bird watchers and those seeking the awe-inspiring sight of California condors in flight. The park's rugged cliffs and expansive landscapes provide the perfect backdrop for witnessing these majestic birds soaring through the sky. Hiking trails with panoramic views offer opportunities to observe not only condors but also a variety of other bird species. The park's unique blend of geological features and diverse ecosystems make it a captivating destination for both nature enthusiasts and bird lovers. Whether you're an avid birder, a photographer, or simply a fan of wildlife, Pinnacles National Park delivers an aerial spectacle that leaves a lasting impression."
+        "credit": "NPS Photo/ Katherine Fielding",
+        "title": "High Peaks with Condors Above",
+        "altText": "A massive rock spire with California condors flying above the peak.",
+        "caption": "The best views of Pinnacles' rocks can be enjoyed from the west side with almost no effort required.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/9CCA8ED3-ABB9-CB69-EF4B32F2ADACEC47.jpeg"
       },
       "trip": "An excellent choice for summer birdwatching is Pinnacles National Park, which has a dedicated California Condor Recovery Program, and you have a good chance of spotting these majestic birds in the park. Here are some activities you can do for birdwatching at Pinnacles National Park:",
       "activities": [
