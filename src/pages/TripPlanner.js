@@ -13,7 +13,7 @@ function TripPlanner(){
         <main>
             <h2>Trip Planner</h2>
             <TripForm onSubmitForm={selectTrip}/>
-            <TripSuggestion />
+            <TripSuggestion tripId={selectedTrip}/>
         </main>
     )
 }
