@@ -1,4 +1,4 @@
-function TripSuggestion(){
+function TripSuggestion({trip}){
     return(
         <h3>Will Render Suggested Trip</h3>
     )

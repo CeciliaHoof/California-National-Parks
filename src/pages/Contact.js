@@ -24,7 +24,7 @@ function Contact() {
  
  
   return (
-    <>
+    <main>
       <Segment.Group horizontal>
         <Segment>
           <Segment.Group>
@@ -51,7 +51,7 @@ function Contact() {
 
 
       </Segment.Group>
-    </>
+    </main>
   );
 }
 

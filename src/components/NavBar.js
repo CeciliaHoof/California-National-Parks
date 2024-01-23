@@ -18,16 +18,16 @@ function NavBar() {
           Parks
         </NavLink>
         <NavLink
-          to="/contact"
-          className="item"
-        >
-          Contact
-        </NavLink>
-        <NavLink
           to="/trip-planner"
           className="item"
         >
           Trip Planner
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="item"
+        >
+          Contact
         </NavLink>
       </div>
     </Menu>

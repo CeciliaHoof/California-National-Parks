@@ -2,14 +2,14 @@ import { Form, Dropdown } from "semantic-ui-react";
 import { useState } from "react";
 
 function TripForm({ onSubmitForm }) {
-  const [selectedSeason, setSelectedSeason] = useState('')
-  const [selectedActivity, setSelectedActivity] = useState('')
+  const [selectedSeason, setSelectedSeason] = useState("");
+  const [selectedActivity, setSelectedActivity] = useState("");
 
   const seasons = ["Winter", "Spring", "Summer", "Fall"];
-  let seasonNum = 0
+  let seasonNum = 0;
   const seasonOptions = seasons.map((season) => {
     seasonNum++;
-    return { key: season, text: season, value: seasonNum};
+    return { key: season, text: season, value: seasonNum };
   });
 
   const activities = [
@@ -25,10 +25,11 @@ function TripForm({ onSubmitForm }) {
     return { key: activity, text: activity, value: activityNum };
   });
 
-  function handleSubmit(e){
+  function handleSubmit(e) {
     e.preventDefault();
-    onSubmitForm(`${selectedSeason}${selectedActivity}`)
+    onSubmitForm(`${selectedSeason}${selectedActivity}`);
   }
+
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Field>
@@ -38,7 +39,7 @@ function TripForm({ onSubmitForm }) {
           value={selectedSeason}
           options={seasonOptions}
           placeholder="Select Season"
-          onChange={(e, {value}) => setSelectedSeason(value)}
+          onChange={(e, { value }) => setSelectedSeason(value)}
         />
         <Dropdown
           selection
@@ -46,7 +47,7 @@ function TripForm({ onSubmitForm }) {
           value={selectedActivity}
           options={activityOptions}
           placeholder="Select Activity"
-          onChange={(e, {value}) => setSelectedActivity(value)}
+          onChange={(e, { value }) => setSelectedActivity(value)}
         />
       </Form.Field>
       <Form.Button type="submit">Submit</Form.Button>

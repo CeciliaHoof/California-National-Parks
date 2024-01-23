@@ -6,12 +6,9 @@ function ParkCard({ park }){
     if(!park){
         return <h1>Loading...</h1>
     }
-
-    //renders a semantic UI card with an image and the park's name
-    //clicking the card will route to the ParkDetails page
     return(
         <Card>
-            <Image src={park.images[0].url}/>
+            <Image height="119px" src={park.images[0].url}/>
             <Card.Content>
                 <Card.Header>{park.fullName}</Card.Header>
             </Card.Content>
