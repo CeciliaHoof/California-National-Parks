@@ -1,28 +1,32 @@
 import { Form, Segment } from "semantic-ui-react"
-import {useState} from "react";
+import {useState } from "react";
 
-const intialFormState = {
-    username: "",
-    title: "",
-    content: ""
-}
-function ParkReviewForm({park}){
+
+
+function ParkReviewForm({parkId}){
+
+    const intialFormState = {
+        username: "",
+        title: "",
+        content: "",
+        parkId: parkId
+    }
     
     const [formData, setFormData] = useState(intialFormState)
-    
+
     function handleChange(e){
         setFormData({...formData, [e.target.name]: e.target.value})
     }
     
     function handleSubmit(e){
-        e.preventDefault()
-       fetch (`http://localhost:8001/parks/${park.id}`,{
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify([...park.reviews, formData])
-       })
+        e.preventDefault();
+        fetch(`http://localhost:8001/reviews`, {
+            method: "POST",
+            headers: {"content-type": "application/json"},
+            body: JSON.stringify(formData)
+        })
+            .then(resp => resp.json())
+            .then(data => console.log(data))
     }
 
 
