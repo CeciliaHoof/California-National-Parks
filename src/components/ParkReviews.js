@@ -17,8 +17,6 @@ function ParkReviews({ park }) {
     return <h1>Loading</h1>
   }
   
-  
-
   return (
     <Segment.Group horizontal>
       <Segment>
