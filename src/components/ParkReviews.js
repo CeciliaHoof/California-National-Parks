@@ -16,13 +16,16 @@ function ParkReviews({ park }) {
   if(!reviews){
     return <h1>Loading</h1>
   }
+  function handleNewReview(review){
+    setReviews([review,...reviews])
+  }
   
   return (
     <Segment.Group horizontal>
       <Segment>
       <Header as="h3">Submit a Review of the Park:</Header>
 
-        <ParkReviewForm parkId ={park.id}/>
+        <ParkReviewForm parkId ={park.id} onReviewSubmit = {handleNewReview}/>
 
       </Segment>
       <Segment>

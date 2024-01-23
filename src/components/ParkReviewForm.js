@@ -3,7 +3,7 @@ import {useState } from "react";
 
 
 
-function ParkReviewForm({parkId}){
+function ParkReviewForm({parkId, onReviewSubmit}){
 
     const intialFormState = {
         username: "",
@@ -26,7 +26,7 @@ function ParkReviewForm({parkId}){
             body: JSON.stringify(formData)
         })
             .then(resp => resp.json())
-            .then(data => console.log(data))
+            .then(data =>onReviewSubmit(data))
     }
 
 
