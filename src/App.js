@@ -8,15 +8,14 @@ const GlobalStyle = createGlobalStyle`
     h1, h2, h3 {
         text-align: center;
     }
+    body {
+        background-color: #f0f0f0;
+    }
 `
 const StyledHeader = styled(Header)`
     background-color: #6B7E8D;
 `
-const StyledFooter = styled.footer`
-    background-color: #6B7E8D;
-    height: 55px;
-    text-align: center;
-`
+
 function App(){
 
 
