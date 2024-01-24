@@ -2,6 +2,23 @@ import { Comment, Header, Segment } from "semantic-ui-react";
 import { useState, useEffect } from "react";
 import Review from "./Review";
 import ParkReviewForm from "./ParkReviewForm";
+import styled from "styled-components";
+
+const ReviewsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 25px;
+`
+
+const ReviewFormContainer = styled.div`
+  width: 600px;
+  margin-right: 30px;
+  padding-left: 10px;
+`
+const Reviews = styled.div`
+  width: 875px;
+`
 
 function ParkReviews({ park }) {
   const [reviews, setReviews] = useState(park.reviews);
@@ -20,20 +37,21 @@ function ParkReviews({ park }) {
   }
 
   return (
-    <Segment.Group horizontal>
-      <Segment>
-        <Header as="h3">Submit a Review of the Park:</Header>
+      <>
+      <ReviewsContainer>
+        <ReviewFormContainer>
+        <h3>Reviews of {park.fullName}</h3>
         <ParkReviewForm parkId={park.id} onReviewSubmit={handleNewReview} />
-      </Segment>
-      <Segment>
+        </ReviewFormContainer>
+        <Reviews>
         <Comment.Group>
-          <Header as="h3"> Reviews </Header>
           {reviews.map((review) => (
             <Review key={review.id} review={review} />
           ))}
         </Comment.Group>
-      </Segment>
-    </Segment.Group>
+        </Reviews>
+      </ReviewsContainer>
+      </>
   );
 }
 export default ParkReviews;

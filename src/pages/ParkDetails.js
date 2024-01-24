@@ -6,10 +6,6 @@ function ParkDetails() {
   const parks = useOutletContext();
   
   const park = parks.find(park => park.id === parseInt(params.id))
-
-  if(!park){
-    return(<h1> Loading </h1>)
-  }
   
   return(
         <ParkInfo park={park}/>

@@ -1,5 +1,12 @@
 import { Form, Dropdown } from "semantic-ui-react";
 import { useState } from "react";
+import styled from "styled-components"
+
+const StyledForm = styled(Form)`
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+`
 
 function TripForm({ onSubmitForm }) {
   const [selectedSeason, setSelectedSeason] = useState("");
@@ -31,8 +38,7 @@ function TripForm({ onSubmitForm }) {
   }
 
   return (
-    <Form onSubmit={handleSubmit}>
-      <Form.Field>
+    <StyledForm onSubmit={handleSubmit}>
         <Dropdown
           selection
           name="season"
@@ -49,9 +55,8 @@ function TripForm({ onSubmitForm }) {
           placeholder="Select Activity"
           onChange={(e, { value }) => setSelectedActivity(value)}
         />
-      </Form.Field>
       <Form.Button type="submit">Submit</Form.Button>
-    </Form>
+    </StyledForm>
   );
 }
 export default TripForm;
