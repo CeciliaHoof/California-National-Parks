@@ -1,3 +1,4 @@
+
 // import data from './data.json';
 import {useEffect, useState} from "react";
 import {Image, Segment} from "semantic-ui-react";
@@ -5,13 +6,15 @@ import "../stylesheets/contact.css";
 
 
 
+
 function Contact() {
-  const [image, setImage] = useState({});
-  const email = "info@parks.ca.gov";
-  const phone = "(800) 777-0369";
-  const twitter = "https://twitter.com/CAStateParks"
-  const facebook = "https://www.facebook.com/CaliforniaStateParks/"
-  const instagram = "https://www.instagram.com/castateparks/"
+
+  const email = "emailparks@example.com";
+  const phone = "(800) 555-5555";
+  const twitter = "https://fake-twitter-link.com/CAStateParks"
+  const facebook = "https://fake-facebook-link.com/CaliforniaStateParks"
+  const instagram = "https://fake-instagram-link.com/CAStateParks"
+  
 
   
  useEffect(() => {
@@ -52,6 +55,7 @@ function Contact() {
 
       </Segment.Group>
     </main>
+
   );
 }
 
