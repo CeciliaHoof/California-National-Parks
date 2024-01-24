@@ -8,6 +8,7 @@ function ErrorPage() {
   return (
     <>
     <header>
+        <h1>California's National Parks</h1>
         <NavBar />
     </header>
     <main>
