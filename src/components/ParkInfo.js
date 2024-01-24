@@ -1,4 +1,4 @@
-import { Image, Container, Segment, List } from "semantic-ui-react";
+import { Image, List } from "semantic-ui-react";
 import ParkReviews from "./ParkReviews";
 import styled from "styled-components";
 
@@ -7,6 +7,7 @@ const FlexDiv = styled.div`
   justify-content: center;
   padding: 10px;
   margin-top: 10px;
+  gap: 30px;
 `;
 
 const InfoDiv = styled.div`
@@ -22,8 +23,18 @@ const LinkContainer = styled.div`
 `;
 
 const StyledLink = styled.a`
-  color: #2e3d23;
-  font-size: 14px;
+  color: #6B7E8D;
+  font-size: 16px;
+`;
+
+const ImageContainer = styled.div`
+  text-align: center;
+  font-style: italic;
+  width: 600px;
+`;
+
+const ContentContainer = styled.div`
+  width: 875px;
 `;
 
 function ParkInfo({ park }) {
@@ -52,8 +63,16 @@ function ParkInfo({ park }) {
   return (
     <>
       <FlexDiv>
-        <Image src={images[1].url} size="big" floated="left" />
-        <div>
+        <ImageContainer>
+          <Image
+            src={images[1].url}
+            alt={images[1].altText}
+            size="big"
+            floated="left"
+          />
+          <p>{`${images[1].caption} Photo Credit: ${images[1].credit}`}</p>
+        </ImageContainer>
+        <ContentContainer>
           <h2>{fullName}</h2>
           <p>{description}</p>
           <h3>Activities</h3>
@@ -87,12 +106,13 @@ function ParkInfo({ park }) {
             </p>
 
             <LinkContainer>
-              <StyledLink href={url}>Visit the NPS Website for more information.</StyledLink>
+              <StyledLink href={url}>
+                Visit the NPS Website for more information.
+              </StyledLink>
             </LinkContainer>
           </InfoDiv>
-        </div>
+        </ContentContainer>
       </FlexDiv>
-
       <ParkReviews park={park} />
     </>
   );

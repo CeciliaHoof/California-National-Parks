@@ -6,10 +6,7 @@ const ContainerDiv=styled.div`
   justify-content: center;
   margin-top: 25px;
   padding: 10px;
-`
-
-const DescriptionDiv = styled.div`
-  margin-left:15px;
+  gap: 30px;
 `
 
 const LinkContainer = styled.div`
@@ -17,17 +14,13 @@ const LinkContainer = styled.div`
 `;
 
 const StyledLink = styled.a`
-  color: #2e3d23;
+  color: #6B7E8D;
   font-size: 16px;
 `;
 
 const ImageContainer = styled.div`
   text-align: center;
 `;
-
-const StyledImage = styled(Image)`
-  &&{margin-bottom: 8px;}
-`
 
 const Caption = styled.p`
   font-style: italic;
@@ -43,10 +36,10 @@ function TripSuggestion({ suggestedTrip }) {
   return (
     <ContainerDiv>
       <ImageContainer>
-        <StyledImage src={image.url} alt={image.altText} size="massive" floated="right" />
+        <Image src={image.url} alt={image.altText} size="massive" floated="right" />
         <Caption>{`${image.caption} Photo credit: ${image.credit}`}</Caption>
       </ImageContainer>
-      <DescriptionDiv>
+      <div>
         <h2>{park}</h2>
       <p>{trip}</p>
       <List
@@ -62,7 +55,8 @@ function TripSuggestion({ suggestedTrip }) {
       <LinkContainer>
       <StyledLink href={url}>Visit the Park's Website for Further Details</StyledLink>
       </LinkContainer>
-      </DescriptionDiv>
+      <h3>Don't forget to leave a review of the Parks page after your visit!</h3>
+      </div>
     </ContainerDiv>
   );
 }

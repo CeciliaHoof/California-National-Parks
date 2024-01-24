@@ -14,6 +14,10 @@ const PageWelcome = styled(Container)`
   margin-bottom: 10px;
 `;
 
+const CardContainer = styled.div`
+  margin: 0px 11px 0px 11px;
+`
+
 function Parks() {
   const [parks, setParks] = useState([]);
   const [parkSelected, setParkSelected] = useState(false);
@@ -38,7 +42,7 @@ function Parks() {
         <h2>Welcome to the Parks!</h2>
         <p>Click "View Park" to see Park details and read reviews</p>
       </PageWelcome>
-      <Card.Group itemsPerRow={8}>{parksDisplay}</Card.Group>
+      <CardContainer><Card.Group itemsPerRow={8}>{parksDisplay}</Card.Group></CardContainer>
         <Outlet context={parks} />
         {parkSelected === false && (
         <StyledContainer>
