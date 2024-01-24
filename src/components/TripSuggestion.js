@@ -1,4 +1,4 @@
-import { Container, Image, List } from "semantic-ui-react";
+import { Image, List } from "semantic-ui-react";
 import styled from "styled-components";
 
 const ContainerDiv=styled.div`
@@ -33,10 +33,10 @@ const Caption = styled.p`
   font-style: italic;
 `;
 
-function TripSuggestion({ tripSuggestion }) {
-  const { image, park, trip, activities, reminder, url } = tripSuggestion;
+function TripSuggestion({ suggestedTrip }) {
+  const { image, park, trip, activities, reminder, url } = suggestedTrip;
 
-  if (!tripSuggestion.trip) {
+  if (!suggestedTrip.trip) {
     return <h2>Loading...</h2>;
   }
 
