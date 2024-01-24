@@ -5,14 +5,14 @@ import {useState } from "react";
 
 function ParkReviewForm({parkId, onReviewSubmit}){
 
-    const intialFormState = {
+    const initialFormState = {
         username: "",
         title: "",
         content: "",
         parkId: parkId
     }
     
-    const [formData, setFormData] = useState(intialFormState)
+    const [formData, setFormData] = useState(initialFormState)
 
     function handleChange(e){
         setFormData({...formData, [e.target.name]: e.target.value})
@@ -27,12 +27,13 @@ function ParkReviewForm({parkId, onReviewSubmit}){
         })
             .then(resp => resp.json())
             .then(data =>onReviewSubmit(data))
+        setFormData(initialFormState)
     }
 
 
 
     return(
-        <Segment>
+
             
             <Form onSubmit={handleSubmit}>
                 <Form.Input label="Username"  name = "username" value = {formData.username} onChange={handleChange} />
@@ -40,7 +41,7 @@ function ParkReviewForm({parkId, onReviewSubmit}){
                 <Form.TextArea label="Review" name = "content" value = {formData.content} onChange={handleChange}/>
                 <Form.Button>Submit Review</Form.Button>
             </Form>
-        </Segment>
+
     )
 }
 

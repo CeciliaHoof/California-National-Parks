@@ -814,7 +814,6 @@
       "title": "Enchanting Yosemite Valley",
       "content": "Yosemite National Park's iconic Yosemite Valley is an enchanting oasis nestled within the Sierra Nevada mountains. The valley's meadows, surrounded by towering granite cliffs and waterfalls, create a picturesque setting that has inspired artists and nature lovers for generations. The serene Merced River flows through the valley, adding to its tranquility. Hiking or simply strolling through the valley unveils breathtaking vistas, including the famous Tunnel View outlook. Whether you're a landscape painter, a wildlife enthusiast, or someone seeking the beauty of a mountain valley, Yosemite National Park's Yosemite Valley is a captivating destination that captures the essence of natural splendor."
     }
-
   ],
   "trips": [
     {
@@ -822,11 +821,11 @@
       "park": "Yosemite National Park",
       "url": "https://www.nps.gov/yose/index.htm",
       "image": {
-        "credit": "NPS / Cindy Jacoby",
-        "title": "Half Dome",
-        "altText": "Granite dome with trace amounts of snow.",
-        "caption": "Half Dome is one of the most recognizable granitic formations in the world.",
-        "url": "https://www.nps.gov/common/uploads/structured_data/3C84CF74-1DD8-B71B-0B9C7FF83F7C68EB.jpg"
+        "credit": "NPS",
+        "title": "Tenaya Lake at Sunset",
+        "altText": "Mountains surrounding a lake.",
+        "caption": "Tenaya Lake is a favorite place to stop along the Tioga Road in summer.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C84C97E-1DD8-B71B-0B5DD2112C58C175.jpg"
       },
       "trip": "In winter, consider visiting Yosemite National Park for hiking in California. Some recommended winter trails in Yosemite National Park include:",
       "activities": [
@@ -1106,11 +1105,11 @@
       "park": "Yosemite National Park",
       "url": "https://www.nps.gov/yose/index.htm",
       "image": {
-        "credit": "NPS Photo/ Christine Fey",
-        "title": "El Capitan",
-        "altText": "El Capitan and reflection in Merced River with some low clouds",
-        "caption": "El Capitan rises over 3,000 feet above the floor of Yosemite Valley.",
-        "url": "https://www.nps.gov/common/uploads/structured_data/058C8410-D5BA-32F4-BC468014AF42CB0B.jpg"
+        "credit": "NPS/Bob Roney",
+        "title": "Rainbow over Half Dome",
+        "altText": "A rainbow over a mountain in the distance.",
+        "caption": "A hike up to Sentinel Dome rewards people with great views of the landscape around them.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C84C6CF-1DD8-B71B-0B1C7CB883AA8FB1.jpg"
       },
       "trip": "A great option for spring rock climbing in California is Yosemite National Park. Yosemite is famous for its granite cliffs and offers challenging rock climbing opportunities. Here are some activities you can do for rock climbing at Yosemite National Park during the spring:",
       "activities": [
@@ -1171,10 +1170,10 @@
       "url": "https://www.nps.gov/yose/index.htm",
       "image": {
         "credit": "NPS",
-        "title": "Glen Aulin",
-        "altText": "Mountains reflecting in water",
-        "caption": "Glen Auilin is one of five High Sierra Camps, located in the Yosemite high country.",
-        "url": "https://www.nps.gov/common/uploads/structured_data/3C84C82D-1DD8-B71B-0B8D6902B62369E2.jpg"
+        "title": "Tenaya Lake at Sunset",
+        "altText": "Mountains surrounding a lake.",
+        "caption": "Tenaya Lake is a favorite place to stop along the Tioga Road in summer.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C84C97E-1DD8-B71B-0B5DD2112C58C175.jpg"
       },
       "trip": "For summer fishing in California, consider visiting Yosemite National Park. Here are some activities you can do for fishing at Yosemite during the summer:",
       "activities": [
@@ -1362,11 +1361,11 @@
       "park": "Yosemite National Park",
       "url": "https://www.nps.gov/yose/index.htm",
       "image": {
-        "credit": "NPS / Cindy Jacoby",
-        "title": "Giant Sequoia Trees in the Mariposa Grove of Giant Sequoias",
-        "altText": "Cluster of tall trees with cloudy sky.",
-        "caption": "Yosemite National Park's massive giant sequoias (Sequoiadendron giganteum) live in three groves in the park. The most famous of these is the Mariposa Grove, which contains about 500 mature giant sequoias.",
-        "url": "https://www.nps.gov/common/uploads/structured_data/3C8560E1-1DD8-B71B-0BD3183636F4B861.jpg"
+        "credit": "NPS",
+        "title": "Tenaya Lake at Sunset",
+        "altText": "Mountains surrounding a lake.",
+        "caption": "Tenaya Lake is a favorite place to stop along the Tioga Road in summer.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C84C97E-1DD8-B71B-0B5DD2112C58C175.jpg"
       },
       "trip": "An excellent option for fall birdwatching is Yosemite National Park. Here are some activities you can do for birdwatching at Yosemite during the fall:",
       "activities": [
@@ -1426,11 +1425,11 @@
       "park": "Yosemite National Park",
       "url": "https://www.nps.gov/yose/index.htm",
       "image": {
-        "credit": "NPS Photo/ Christine Fey",
-        "title": "El Capitan",
-        "altText": "El Capitan and reflection in Merced River with some low clouds",
-        "caption": "El Capitan rises over 3,000 feet above the floor of Yosemite Valley.",
-        "url": "https://www.nps.gov/common/uploads/structured_data/058C8410-D5BA-32F4-BC468014AF42CB0B.jpg"
+        "credit": "NPS/Bob Roney",
+        "title": "Rainbow over Half Dome",
+        "altText": "A rainbow over a mountain in the distance.",
+        "caption": "A hike up to Sentinel Dome rewards people with great views of the landscape around them.",
+        "url": "https://www.nps.gov/common/uploads/structured_data/3C84C6CF-1DD8-B71B-0B1C7CB883AA8FB1.jpg"
       },
       "trip": "A great option for spring rock climbing in California is Yosemite National Park. Yosemite is famous for its granite cliffs and offers challenging rock climbing opportunities. Here are some activities you can do for rock climbing at Yosemite National Park during the spring:",
       "activities": [

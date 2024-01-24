@@ -1,15 +1,19 @@
-import { Comment, Segment } from "semantic-ui-react";
+import { Comment } from "semantic-ui-react";
+import styled from "styled-components";
+
+const StyledComment = styled(Comment)`
+  width: 870px;
+`
+
 function Review({ review }) {
   return (
-    <Segment>
-      <Comment>
+      <StyledComment>
         <Comment.Content>
           <Comment.Author as="h5">{review.username}</Comment.Author>
-          <Comment.Text as="h6">{review.title}</Comment.Text>
+          <Comment.Text>{review.title}</Comment.Text>
           <Comment.Text>{review.content}</Comment.Text>
         </Comment.Content>
-      </Comment>
-    </Segment>
+      </StyledComment>
   );
 }
 
