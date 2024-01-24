@@ -19,7 +19,7 @@ function ParkCard({ park, onSelectPark }) {
         <Card.Header>{fullName}</Card.Header>
       </Card.Content>
       <Card.Content extra>
-        <StyledLink to={`/parks/${park.id}`} onClick={onSelectPark}>View Park</StyledLink>
+        <span onClick={() => onSelectPark(park)}>View Park</span>
       </Card.Content>
     </StyledCard>
   );
