@@ -23,7 +23,7 @@ const LinkContainer = styled.div`
 `;
 
 const StyledLink = styled.a`
-  color: #6B7E8D;
+  color: #6b7e8d;
   font-size: 16px;
 `;
 
@@ -86,10 +86,7 @@ function ParkInfo({ park }) {
           </StyledList>
           <InfoDiv>
             <h3>General Park Information</h3>
-            <p>
-              <strong>Operating Hours: </strong>
-              {operatingHours}
-            </p>
+
             {entranceFee === 0 ? (
               <p>
                 <strong>Entrance fee: </strong>Entrance to this park is free.
@@ -100,6 +97,10 @@ function ParkInfo({ park }) {
                 {`$${entranceFee}`}
               </p>
             )}
+            <p>
+              <strong>Operating Hours: </strong>
+              {operatingHours}
+            </p>
             <p>
               <strong>Weather information: </strong>
               {weatherInfo}

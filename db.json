@@ -655,7 +655,7 @@
       "entranceFee": 35,
       "directionsInfo": "You can drive to Yosemite year-round and enter via Highways 41, 140, and 120 from the west. Tioga Pass Entrance (via Highway 120 from the east) is closed from approximately November through late May or June. Hetch Hetchy is open all year but may close intermittently due to snow. Please note that GPS units do not always provide accurate directions to or within Yosemite.",
       "directionsUrl": "http://www.nps.gov/yose/planyourvisit/driving.htm",
-      "operatingHours": "Yosemite National Park is open 24 hours per day, 365 days per year.",
+      "operatingHours": "Yosemite National Park is open 24 hours per day, 365 days per year. However, reservations are required to enter the Park at certain times of the year, and some areas may close seasonally. Be sure to check the Park's website when planning your trip.",
       "address": {
         "postalCode": "95389",
         "city": "Yosemite",
@@ -846,6 +846,29 @@
           "description": "Explore this grove to see giant sequoia trees, including the famous Grizzly Giant and California Tunnel Tree."
         }
       ],
+      "lodgingIntro": "For hiking enthusiasts visiting Yosemite National Park in winter, the choice of accommodation depends on personal preferences and the specific hiking experiences you're seeking. Here are a couple of options that cater to avid hikers:",
+      "lodgingOptions": [
+        {
+          "name": "Yosemite Valley Lodge",
+          "pros": "Located in the heart of Yosemite Valley, offering convenient access to numerous hiking trails, including iconic ones like Yosemite Falls and Mist Trail.",
+          "cons": "Popular and may have higher demand."
+        },
+        {
+          "name": "Curry Village",
+          "pros": "Budget-friendly accommodation with various options, including heated canvas tents and cabins. Close proximity to trailheads like Upper Yosemite Falls and Glacier Point.",
+          "cons": "Basic amenities, and availability can be limited during peak times."
+        },
+        {
+          "name": "Tenaya Lodge at Yosemite",
+          "pros": "Situated just outside the park, offering a comfortable and relaxing stay after a day of hiking. Provides a range of amenities.",
+          "cons": "Not within walking distance to Yosemite Valley, so you'll need to drive to trailheads."
+        },
+        {
+          "name": "Evergreen Lodge at Yosemite",
+          "pros": "A rustic lodge with a cozy atmosphere, located near Hetch Hetchy. Offers guided hikes and outdoor activities.",
+          "cons":  "Further from Yosemite Valley, so it may take some time to reach popular trailheads."
+        }
+      ],
       "reminder": "Remember to check trail conditions and accessibility in winter, and be prepared for colder temperatures. Always follow safety guidelines and regulations provided by the park."
     },
     {
@@ -872,6 +895,29 @@
         {
           "name": "Snowshoeing or Cross-Country Skiing",
           "description": "While not directly related to fishing, Lassen Volcanic National Park offers winter sports like snowshoeing and cross-country skiing. You can enjoy the snowy landscapes and explore different areas of the park."
+        }
+      ],
+      "lodgingIntro": "While the park doesn't have accommodations within its boundaries, there are options nearby. Here are some suggestions for places to stay during your winter fishing trip to Lassen Volcanic National Park:",
+      "lodgingOptions": [
+        {
+          "name": "Drakesbad Guest Ranch",
+          "pros": "Rustic charm, natural hot springs, close to the park's southwest entrance.",
+          "cons": "Limited availability, may require advance booking."
+        },
+        {
+          "name": "St. Bernard Lodge",
+          "pros": "Historic charm, convenient location near various park entrances.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Mill Creek Resort",
+          "pros": "Family-friendly, cabin-style accommodations, proximity to outdoor activities.",
+          "cons": "Availability may be limited in winter."
+        },
+        {
+          "name": "Manzanita Lake Camping Cabins",
+          "pros": "Scenic setting within the park, close to Manzanita Lake.",
+          "cons": "Rustic accommodations, limited availability."
         }
       ],
       "reminder": "Make sure to check fishing regulations, obtain any required permits, and be aware of safety considerations for winter activities. Always follow park guidelines to ensure a positive experience."
@@ -906,6 +952,29 @@
           "description": "This unique rock formation is accessible from the road, and you might encounter birds in the surrounding areas."
         }
       ],
+      "lodgingIntro": "Birdwatching in Joshua Tree National Park during winter offers unique opportunities to observe desert bird species. Here are accommodation options near Joshua Tree for birdwatching enthusiasts to consider:",
+      "lodgingOptions": [
+        {
+          "name": "Joshua Tree Inn",
+          "pros": "Located close to Joshua Tree National Park, serene desert setting, potential birdwatching opportunities on the property.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "29 Palms Inn",
+          "pros": "Oasis-like setting, proximity to the Oasis of Mara and Joshua Tree National Park, potential birdwatching around the inn.",
+          "cons": "Availability may be limited in winter."
+        },
+        {
+          "name": "Pioneertown Motel",
+          "pros": "Quirky desert charm, close to Joshua Tree National Park, potential birdwatching opportunities nearby.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Joshua Tree Ranch House",
+          "pros": "Secluded desert location, potential birdwatching on the property, private and peaceful.",
+          "cons": "Availability may be limited, rustic accommodations."
+        }
+      ],
       "reminder": "Remember to bring binoculars, a field guide, and be mindful of the desert environment. Check for any ranger-led programs or birdwatching events that may be happening during your visit."
     },
     {
@@ -936,6 +1005,29 @@
         {
           "name": "Wildlife Watching",
           "description": "While paddling, keep an eye out for marine wildlife such as dolphins, seals, and seabirds. The park is rich in biodiversity, and paddling allows you to experience it up close."
+        }
+      ],
+      "lodgingIntro": "When visiting Channel Islands National Park in winter for paddling, you'll need to consider accommodations on the mainland since there are no lodgings directly on the islands. Here are some options to consider, each with its own advantages:",
+      "lodgingOptions": [
+        {
+          "name": "Santa Barbara Harbor",
+          "pros": "Close proximity to Channel Islands National Park, various kayak rental services available, diverse marine life.",
+          "cons": "No on-island accommodations, requires a boat trip to the islands."
+        },
+        {
+          "name": "Ventura Harbor",
+          "pros": "Access to boat tours and kayak rentals, beautiful coastal scenery, diverse birdwatching opportunities.",
+          "cons": "Limited on-island accommodations, boat trip required to reach the islands."
+        },
+        {
+          "name": "Oxnard Harbor",
+          "pros": "Proximity to Channel Islands, kayak rentals available, scenic coastal views.",
+          "cons": "Limited on-island accommodations, boat trip required."
+        },
+        {
+          "name": "Island Packers Cruises (Ventura)",
+          "pros": "Offers transportation to the islands, kayak rentals available on some trips, experienced guides.",
+          "cons": "No on-island accommodations, limited flexibility in paddling locations."
         }
       ],
       "reminder": "Ensure you have the appropriate paddling gear, check weather conditions, and consider joining guided tours for a safe and enjoyable experience. Always follow park regulations to protect the delicate marine ecosystem."
@@ -970,6 +1062,29 @@
           "description": "This area is known for its bouldering opportunities. It's a great place for climbers of all levels to practice their skills on the boulders."
         }
       ],
+      "lodgingIntro": "When visiting Joshua Tree National Park for winter rock climbing, consider these lodging and camping options:",
+      "lodgingOptions": [
+        {
+          "name": "Joshua Tree National Park Campgrounds",
+          "pros": "Immersive desert camping experience, proximity to climbing areas, stargazing opportunities.",
+          "cons": "Limited amenities, may require advance reservations, popular sites can fill up quickly."
+        },
+        {
+          "name": "Indian Cove Campground",
+          "pros": "Specifically designed for rock climbers, scenic views, proximity to climbing routes.",
+          "cons": "Limited amenities, may require advance reservations, can be crowded during peak times."
+        },
+        {
+          "name": "Joshua Tree Ranch House",
+          "pros": "Secluded desert location, private and peaceful, potential for stargazing after climbing.",
+          "cons": "Availability may be limited, rustic accommodations."
+        },
+        {
+          "name": "Pioneertown Motel",
+          "pros": "Quirky desert charm, close to Joshua Tree National Park, unique atmosphere.",
+          "cons": "Limited amenities, availability may vary."
+        }
+      ],
       "reminder": "Ensure you have the necessary climbing gear, check for any park regulations or seasonal closures, and be aware of safety precautions for winter climbing. Always follow Leave No Trace principles to preserve the park's natural beauty."
     },
     {
@@ -1000,6 +1115,29 @@
         {
           "name": "Badwater Salt Flats",
           "description": "Explore the Badwater Basin area and take a walk out onto the salt flats. The hexagonal salt polygons create an otherworldly landscape."
+        }
+      ],
+      "lodgingIntro": "When visiting Death Valley National Park in spring for hiking, consider these lodging and camping options:",
+      "lodgingOptions": [
+        {
+          "name": "The Oasis at Death Valley",
+          "pros": "Luxurious accommodations, close proximity to Furnace Creek Visitor Center, diverse hiking trails nearby.",
+          "cons": "Higher cost, may require advance reservations during peak times."
+        },
+        {
+          "name": "Stovepipe Wells Village",
+          "pros": "Scenic desert views, convenient location, various amenities.",
+          "cons": "Limited dining options, popular sites can fill up quickly."
+        },
+        {
+          "name": "Furnace Creek Campground",
+          "pros": "In-park camping, proximity to Furnace Creek area, budget-friendly.",
+          "cons": "Basic amenities, first-come, first-served basis, no reservations."
+        },
+        {
+          "name": "Mesquite Springs Campground",
+          "pros": "Quiet desert setting, stargazing opportunities, proximity to hiking trails.",
+          "cons": "Limited amenities, first-come, first-served basis, no reservations."
         }
       ],
       "reminder": "Always check trail conditions, carry sufficient water, wear appropriate clothing, and be aware of the desert environment. Spring offers pleasant temperatures for hiking, allowing you to explore the diverse landscapes of Death Valley National Park."
@@ -1034,6 +1172,29 @@
           "description": "While not a fishing activity, this trail takes you to Kings Creek Falls, offering scenic views and a pleasant hike after your fishing adventure."
         }
       ],
+      "lodgingIntro": "Enhance your fishing experience in Lassen Volcanic National Park with these lodging and camping options:",
+      "lodgingOptions": [
+        {
+          "name": "Drakesbad Guest Ranch",
+          "pros": "Rustic charm, potential fishing opportunities on the ranch, serene surroundings.",
+          "cons": "Limited availability, may require advance booking."
+        },
+        {
+          "name": "Manzanita Lake Camping Cabins",
+          "pros": "Scenic setting within the park, close to Manzanita Lake, potential for fishing.",
+          "cons": "Rustic accommodations, limited availability."
+        },
+        {
+          "name": "Summit Lake North Campground",
+          "pros": "In-park camping, proximity to Summit Lake, potential for fishing.",
+          "cons": "Basic amenities, first-come, first-served basis, no reservations."
+        },
+        {
+          "name": "Butte Lake Campground",
+          "pros": "Secluded camping, close to Butte Lake, fishing opportunities.",
+          "cons": "Limited amenities, first-come, first-served basis, no reservations."
+        }
+      ],      
       "reminder": "Make sure to check fishing regulations, obtain any required permits, and be aware of safety considerations for spring fishing. Always follow park guidelines to ensure a positive experience."
     },
     {
@@ -1066,7 +1227,30 @@
           "description": "The area around Bridalveil Fall is not only spectacular for the waterfall but also for birdwatching. Keep an eye out for birds in the surrounding trees and meadows."
         }
       ],
-      "reminder": "Bring binoculars, a field guide, and be patient as you explore the diverse habitats within the park. Check for any ranger-led birdwatching programs or events that may enhance your experience. Always follow ethical birdwatching practices to minimize disturbance to the wildlife."
+      "lodgingIntro": "Immerse yourself in the beauty of Yosemite National Park in spring as you indulge in birdwatching. Choose from these lodging and camping options to enhance your birdwatching experience:",
+      "lodgingOptions": [
+        {
+          "name": "Ahwahnee Hotel",
+          "pros": "Iconic historic hotel, luxurious accommodations, proximity to birdwatching hotspots.",
+          "cons": "Higher cost, may require advance reservations during peak times."
+        },
+        {
+          "name": "Tenaya Lodge at Yosemite",
+          "pros": "Resort-style lodging, comfortable amenities, potential wildlife sightings on the property.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Wawona Hotel",
+          "pros": "Historical charm, serene surroundings, close to Mariposa Grove for birdwatching.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Upper Pines Campground",
+          "pros": "In-park camping, proximity to popular birdwatching areas, natural setting.",
+          "cons": "Basic amenities, reservations recommended."
+        }
+      ],
+    "reminder": "Bring binoculars, a field guide, and be patient as you explore the diverse habitats within the park. Check for any ranger-led birdwatching programs or events that may enhance your experience. Always follow ethical birdwatching practices to minimize disturbance to the wildlife."
     },
     {
       "id": 24,
@@ -1096,6 +1280,29 @@
         {
           "name": "Wildlife Watching",
           "description": "While paddling, keep an eye out for marine wildlife such as dolphins, seals, and seabirds. The park is rich in biodiversity, and paddling allows you to experience it up close."
+        }
+      ],
+      "lodgingIntro": "Consider these lodging and camping options to make the most of your paddling exploration amidst the stunning coastal landscapes:",
+      "lodgingOptions": [
+        {
+          "name": "Santa Barbara Harbor Inn",
+          "pros": "Close proximity to Channel Islands, comfortable accommodations, potential for guided paddling tours.",
+          "cons": "May require boat transportation, availability may vary."
+        },
+        {
+          "name": "Ventura Beach Marriott",
+          "pros": "Coastal views, convenient location, potential paddling excursion arrangements.",
+          "cons": "May require boat transportation, availability may vary."
+        },
+        {
+          "name": "Oxnard Embassy Suites",
+          "pros": "Waterfront location, potential for kayak rentals, diverse dining options.",
+          "cons": "May require boat transportation, availability may vary."
+        },
+        {
+          "name": "Island Packers Campground",
+          "pros": "On-island camping, proximity to paddling areas, immersive island experience.",
+          "cons": "Basic amenities, reservations recommended."
         }
       ],
       "reminder": "Ensure you have the appropriate paddling gear, check weather conditions, and consider joining guided tours for a safe and enjoyable experience. Always follow park regulations to protect the delicate marine ecosystem."
@@ -1130,6 +1337,29 @@
           "description": "This multi-pitch climb is known for its classic beauty and is a popular choice for those looking for a challenging yet rewarding experience."
         }
       ],
+      "lodgingIntro": "Choose from these lodging and camping options to enhance your climbing experience during the vibrant spring season in Yosemite:",
+      "lodgingOptions": [
+        {
+          "name": "Yosemite Valley Lodge",
+          "pros": "Scenic location, close proximity to popular climbing routes, comfortable accommodations.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "The Majestic Yosemite Hotel",
+          "pros": "Luxurious accommodations, stunning views, potential for guided climbing excursions.",
+          "cons": "Higher cost, may require advance reservations during peak times."
+        },
+        {
+          "name": "El Portal Motel",
+          "pros": "Convenient location near park entrance, budget-friendly, potential for meeting climbers.",
+          "cons": "Basic amenities, availability may vary."
+        },
+        {
+          "name": "Camp 4",
+          "pros": "Historic climbing campground, close to iconic routes, communal atmosphere.",
+          "cons": "Basic amenities, first-come, first-served basis."
+        }
+      ],
       "reminder": "Ensure you have the necessary climbing gear, check for any permit requirements, and be aware of the specific regulations for climbing in Yosemite. The spring season in Yosemite offers pleasant temperatures and is an ideal time for climbers to enjoy the park's vertical challenges."
     },
     {
@@ -1160,6 +1390,29 @@
         {
           "name": "Crescent Meadow Loop",
           "description": "Enjoy an easier stroll through Crescent Meadow, surrounded by giant sequoia trees. This loop is suitable for all skill levels and offers a peaceful hiking experience."
+        }
+      ],
+      "lodgingIntro": "Immerse yourself in the splendor of Sequoia and Kings Canyon National Parks during the vibrant summer season, where towering sequoias and stunning landscapes await your hiking adventures. Choose from these lodging and camping options to elevate your hiking experience amidst the natural wonders of these iconic parks:",
+      "lodgingOptions": [
+        {
+          "name": "Wuksachi Lodge",
+          "pros": "Spectacular mountain views, proximity to popular hiking trails, comfortable accommodations.",
+          "cons": "Moderate cost, reservations recommended."
+        },
+        {
+          "name": "John Muir Lodge",
+          "pros": "Rustic charm, close to trailheads, potential wildlife sightings.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Grant Grove Cabins",
+          "pros": "Secluded cabins, surrounded by sequoias, family-friendly.",
+          "cons": "Basic amenities, availability may vary."
+        },
+        {
+          "name": "Dorst Creek Campground",
+          "pros": "In-park camping, proximity to hiking areas, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis."
         }
       ],
       "reminder": "Check trail conditions and be prepared for varying elevations and temperatures. Bring plenty of water, wear appropriate clothing, and be aware of wildlife. Consider joining ranger-led programs or nature walks to enhance your understanding of the park's ecosystems and history. Always follow Leave No Trace principles to minimize your impact on the environment."
@@ -1194,6 +1447,29 @@
           "description": "Located in the northwest part of the park, Hetch Hetchy Reservoir provides fishing opportunities for rainbow and brown trout. A permit is required for fishing in this area."
         }
       ],
+      "lodgingIntro": "Escape to the captivating beauty of Yosemite National Park during the warm summer months, where pristine lakes and abundant fishing spots beckon. Choose from these lodging and camping options to enhance your fishing experience amidst the breathtaking landscapes and serene waters of Yosemite:",
+      "lodgingOptions": [
+        {
+          "name": "Tenaya Lodge at Yosemite",
+          "pros": "Resort-style accommodations, proximity to fishing areas, potential for guided fishing excursions.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Yosemite Valley Lodge",
+          "pros": "Scenic location, close proximity to fishing spots, comfortable accommodations.",
+          "cons": "Moderate cost, reservations recommended."
+        },
+        {
+          "name": "Evergreen Lodge at Yosemite",
+          "pros": "Rustic charm, surrounded by nature, potential for fishing on-site.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Bridalveil Creek Campground",
+          "pros": "In-park camping, proximity to fishing areas, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis."
+        }
+      ],
       "reminder": "Before fishing, check fishing regulations, obtain any necessary permits, and be aware of seasonal restrictions. Always follow Leave No Trace principles and practice ethical fishing to preserve the park's natural beauty and aquatic ecosystems."
     },
     {
@@ -1224,6 +1500,29 @@
         {
           "name": "Guided Tours",
           "description": "Join a guided tour or program offered by the park. Rangers may lead specific tours focused on California Condor observation and share valuable information about their conservation efforts."
+        }
+      ],
+      "lodgingIntro": "Embark on a summer adventure at Pinnacles National Park, a haven for birdwatching enthusiasts. Immerse yourself in the diverse avian life and breathtaking landscapes. Choose from these lodging and camping options to elevate your birdwatching experience amidst the natural wonders of Pinnacles:",
+      "lodgingOptions": [
+        {
+          "name": "Pinnacles National Park Campground",
+          "pros": "In-park camping, close proximity to birdwatching areas, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis."
+        },
+        {
+          "name": "Quality Inn & Suites, Hollister",
+          "pros": "Comfortable accommodations, potential for birdwatching in surrounding areas.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Hollister Inn",
+          "pros": "Convenient location, amenities for relaxation, potential birdwatching opportunities.",
+          "cons": "Limited availability, may require advance booking."
+        },
+        {
+          "name": "RV Camping at Pinnacles",
+          "pros": "RV-friendly camping, proximity to birdwatching sites, flexibility for travel.",
+          "cons": "Limited amenities, reservations recommended."
         }
       ],
       "reminder": "Remember to bring binoculars for a closer look, and be respectful of any guidelines provided by park officials to protect these endangered birds. California Condors are a remarkable species, and observing them in their natural habitat is a unique experience."
@@ -1258,6 +1557,29 @@
           "description": "If you don't have your own equipment, check if there are kayak or canoe rentals available near the park entrance or within the park."
         }
       ],
+      "lodgingIntro": "Embrace the summer splendor of Lassen Volcanic National Park, a paradise for paddling enthusiasts seeking adventure on serene waters. Dive into the crystal-clear lakes and explore volcanic landscapes. Choose from these lodging and camping options to amplify your paddling experience amidst the natural wonders of Lassen:",
+      "lodgingOptions": [
+        {
+          "name": "Drakesbad Guest Ranch",
+          "pros": "Rustic charm, potential paddling opportunities on the ranch, serene surroundings.",
+          "cons": "Limited availability, may require advance booking."
+        },
+        {
+          "name": "Manzanita Lake Camping Cabins",
+          "pros": "Scenic setting within the park, close to Manzanita Lake, potential for paddling.",
+          "cons": "Rustic accommodations, limited availability."
+        },
+        {
+          "name": "Summit Lake North Campground",
+          "pros": "In-park camping, proximity to paddling areas, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis, no reservations."
+        },
+        {
+          "name": "Butte Lake Campground",
+          "pros": "Secluded camping, close to Butte Lake, paddling opportunities.",
+          "cons": "Limited amenities, first-come, first-served basis, no reservations."
+        }
+      ],
       "reminder": "Always check for any restrictions, permits, or guidelines related to paddling in the park. Be prepared for varying weather conditions in the summer, and ensure you have the necessary safety equipment for paddling activities. Enjoy the peaceful waters and the unique volcanic landscapes of Lassen Volcanic National Park."
     },
     {
@@ -1288,6 +1610,29 @@
         {
           "name": "Guided Climbing Tours",
           "description": "If you're new to rock climbing or want professional guidance, consider joining a guided climbing tour. Experienced guides can help you navigate the routes safely."
+        }
+      ],
+      "lodgingIntro": "Embark on an exhilarating summer adventure in Joshua Tree National Park, a renowned playground for rock climbing enthusiasts seeking challenging ascents and panoramic views. Choose from these lodging and camping options to enhance your rock climbing experience amidst the unique desert landscapes of Joshua Tree:",
+      "lodgingOptions": [
+        {
+          "name": "Joshua Tree Inn",
+          "pros": "Quaint accommodations, proximity to climbing areas, potential for guided excursions.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Indian Cove Campground",
+          "pros": "In-park camping, close to popular climbing routes, stunning desert scenery.",
+          "cons": "Basic amenities, first-come, first-served basis, no reservations."
+        },
+        {
+          "name": "29 Palms Inn",
+          "pros": "Oasis-like setting, comfortable accommodations, potential for post-climbing relaxation.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Hidden Valley Campground",
+          "pros": "Central location, proximity to classic climbing areas, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis, no reservations."
         }
       ],
       "reminder": "Before engaging in rock climbing, ensure you have the necessary gear, check for any seasonal closures, and be aware of safety precautions. Joshua Tree is a world-class destination for climbers, and the summer weather provides optimal conditions for this outdoor activity. Always follow Leave No Trace principles to preserve the park's natural beauty."
@@ -1322,6 +1667,29 @@
           "description": "Explore coastal trails like the Coastal Trail or the California Coastal Trail for breathtaking views of the Pacific Ocean. These trails often provide a mix of coastal bluffs and redwood forest scenery."
         }
       ],
+      "lodgingIntro": "Embark on a magical autumn journey in Redwood National Park, where the towering giants and vibrant foliage create a picturesque setting for hiking enthusiasts. Choose from these lodging and camping options to immerse yourself in the beauty of fall amidst the awe-inspiring redwood forests of Redwood:",
+      "lodgingOptions": [
+        {
+          "name": "Riverside Campground and Cabins",
+          "pros": "In-park camping, scenic riverside location, proximity to hiking trails.",
+          "cons": "Basic amenities, first-come, first-served basis, no reservations."
+        },
+        {
+          "name": "Crescent Beach Motel",
+          "pros": "Coastal charm, potential for beach hikes, comfortable accommodations.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Elk Meadow Cabins",
+          "pros": "Secluded cabins, surrounded by nature, close to Elk Meadow trail.",
+          "cons": "Basic amenities, availability may vary."
+        },
+        {
+          "name": "Jedediah Smith Campground",
+          "pros": "In-park camping, proximity to majestic redwoods, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis, no reservations."
+        }
+      ],
       "reminder": "Before your hike, check trail conditions, obtain any necessary permits, and be aware of any seasonal closures. Fall is a fantastic time to experience the redwoods as the foliage changes, and the weather is generally mild. Don't forget to bring layers, sturdy footwear, and enjoy the serene beauty of these ancient forests."
     },
     {
@@ -1352,6 +1720,29 @@
         {
           "name": "Grant Grove Area Lakes",
           "description": "Explore lakes in the Grant Grove area of Kings Canyon National Park, such as Grant Lake and others. These lakes provide a tranquil setting for fall fishing."
+        }
+      ],
+      "lodgingIntro": "Embark on a serene autumn getaway in Sequoia and Kings Canyon National Parks, where the crisp fall air and tranquil waters set the stage for an unforgettable fishing experience. Choose from these lodging and camping options to enhance your fall fishing adventure amidst the majestic landscapes of Sequoia and Kings Canyon:",
+      "lodgingOptions": [
+        {
+          "name": "Grant Grove Cabins",
+          "pros": "Secluded cabins, surrounded by sequoias, proximity to fishing areas.",
+          "cons": "Basic amenities, availability may vary."
+        },
+        {
+          "name": "Montecito Sequoia Lodge",
+          "pros": "Mountain lodge experience, potential for guided fishing excursions, family-friendly.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Dorst Creek Campground",
+          "pros": "In-park camping, close to fishing spots, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis."
+        },
+        {
+          "name": "Roaring River Falls Campground",
+          "pros": "Scenic camping, proximity to fishing areas, natural ambiance.",
+          "cons": "Basic amenities, first-come, first-served basis."
         }
       ],
       "reminder": "Check fishing regulations, obtain any necessary permits, and be aware of seasonal changes in fish behavior. Always follow Leave No Trace principles and practice ethical fishing to preserve the parks' natural beauty and aquatic ecosystems. Fall in Sequoia and Kings Canyon National Parks offers a serene and scenic environment for anglers."
@@ -1386,6 +1777,29 @@
           "description": "Take a stroll through Wawona Meadow, located in the southern part of the park. It's a peaceful area where you can observe birds in a serene environment."
         }
       ],
+      "lodgingIntro": "Immerse yourself in the enchanting beauty of Yosemite National Park during the autumn season, where vibrant fall foliage and diverse birdlife create a haven for birdwatching enthusiasts. Choose from these lodging and camping options to elevate your fall birdwatching experience amidst the natural wonders of Yosemite:",
+      "lodgingOptions": [
+        {
+          "name": "Tenaya Lodge at Yosemite",
+          "pros": "Resort-style accommodations, potential for birdwatching on-site, comfortable stay.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Yosemite Valley Lodge",
+          "pros": "Scenic location, close proximity to birdwatching spots, comfortable accommodations.",
+          "cons": "Moderate cost, reservations recommended."
+        },
+        {
+          "name": "Wawona Hotel",
+          "pros": "Historic charm, surrounded by nature, potential for birdwatching in the vicinity.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Upper Pines Campground",
+          "pros": "In-park camping, proximity to birdwatching areas, natural setting.",
+          "cons": "Basic amenities, reservations recommended."
+        }
+      ],   
       "reminder": "Bring binoculars, a field guide, and be patient as you explore the diverse habitats within the park. Check for any ranger-led birdwatching programs or events that may enhance your experience. Always follow ethical birdwatching practices to minimize disturbance to the wildlife."
     },
     {
@@ -1418,6 +1832,29 @@
           "description": "While paddling, keep an eye out for wildlife such as birds and possibly other animals along the shores."
         }
       ],
+      "lodgingIntro": "Embark on a serene autumn escape in Sequoia and Kings Canyon National Parks, where the tranquil waters and golden landscapes create an idyllic setting for paddling enthusiasts. Choose from these lodging and camping options to enhance your fall paddling adventure amidst the majestic scenery of Sequoia and Kings Canyon:",
+      "lodgingOptions": [
+        {
+          "name": "Grant Grove Cabins",
+          "pros": "Secluded cabins, surrounded by sequoias, proximity to paddling areas.",
+          "cons": "Basic amenities, availability may vary."
+        },
+        {
+          "name": "Montecito Sequoia Lodge",
+          "pros": "Mountain lodge experience, potential for guided paddling excursions, family-friendly.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Dorst Creek Campground",
+          "pros": "In-park camping, close to paddling spots, natural setting.",
+          "cons": "Basic amenities, first-come, first-served basis."
+        },
+        {
+          "name": "Roaring River Falls Campground",
+          "pros": "Scenic camping, proximity to paddling areas, natural ambiance.",
+          "cons": "Basic amenities, first-come, first-served basis."
+        }
+      ],
       "reminder": "Always check for any restrictions, permits, or guidelines related to paddling in the parks. Be prepared for changing weather conditions in the fall, and ensure you have the necessary safety equipment for paddling activities. Enjoy the peaceful waters and the natural beauty of Sequoia and Kings Canyon National Parks."
     },
     {
@@ -1448,6 +1885,29 @@
         {
           "name": "Royal Arches",
           "description": "This classic multi-pitch climb offers a beautiful route up the granite cliffs. The Royal Arches area is known for its scenic beauty and is a popular choice for fall climbing."
+        }
+      ],
+      "lodgingIntro": "Embark on an adventurous autumn journey in Yosemite National Park, where the crisp fall air and granite cliffs provide an exhilarating playground for rock climbing enthusiasts. Choose from these lodging and camping options to amplify your fall rock climbing experience amidst the iconic landscapes of Yosemite:",
+      "lodgingOptions": [
+        {
+          "name": "Tenaya Lodge at Yosemite",
+          "pros": "Resort-style accommodations, proximity to climbing areas, potential for guided excursions.",
+          "cons": "Moderate cost, availability may vary."
+        },
+        {
+          "name": "Yosemite Valley Lodge",
+          "pros": "Scenic location, close proximity to climbing routes, comfortable accommodations.",
+          "cons": "Moderate cost, reservations recommended."
+        },
+        {
+          "name": "Wawona Hotel",
+          "pros": "Historic charm, surrounded by nature, potential for climbing nearby.",
+          "cons": "Limited amenities, availability may vary."
+        },
+        {
+          "name": "Upper Pines Campground",
+          "pros": "In-park camping, proximity to climbing areas, natural setting.",
+          "cons": "Basic amenities, reservations recommended."
         }
       ],
       "reminder": "Ensure you have the necessary climbing gear, check for any permit requirements, and be aware of the specific regulations for climbing in Yosemite. Fall in Yosemite offers crisp temperatures and beautiful foliage, creating an ideal setting for rock climbing enthusiasts."
