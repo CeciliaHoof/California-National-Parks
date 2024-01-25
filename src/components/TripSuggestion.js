@@ -26,8 +26,15 @@ const Caption = styled.p`
   font-style: italic;
 `;
 
+const ReminderDiv = styled.div`
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #879BA8;
+  margin-top: 60px;
+`
 function TripSuggestion({ suggestedTrip }) {
-  const { image, park, trip, activities, reminder, url } = suggestedTrip;
+  const { image, park, trip, activities, reminder, url, lodgingIntro, lodgingOptions } = suggestedTrip;
 
   if (!suggestedTrip.trip) {
     return <h2>Loading...</h2>;
@@ -38,6 +45,9 @@ function TripSuggestion({ suggestedTrip }) {
       <ImageContainer>
         <Image src={image.url} alt={image.altText} size="massive" floated="right" />
         <Caption>{`${image.caption} Photo credit: ${image.credit}`}</Caption>
+        <ReminderDiv>
+          <h3>Don't forget to come back and leave a review on the Parks page after your visit!</h3>
+        </ReminderDiv>      
       </ImageContainer>
       <div>
         <h2>{park}</h2>
@@ -51,11 +61,20 @@ function TripSuggestion({ suggestedTrip }) {
           </List.Item>
         ))}
       />
+      <p>{lodgingIntro}</p>
+      <List
+        celled
+        items={lodgingOptions.map((lodging) => (
+          <List.Item key={lodging.name}>
+            <List.Header>{lodging.name}</List.Header>
+            {`Pros: ${lodging.pros}`} <br></br> {`Cons: ${lodging.cons}`}
+          </List.Item>
+        ))}
+      />
       <p>{reminder}</p>
       <LinkContainer>
       <StyledLink href={url}>Visit the Park's Website for Further Details</StyledLink>
       </LinkContainer>
-      <h3>Don't forget to leave a review of the Parks page after your visit!</h3>
       </div>
     </ContainerDiv>
   );
