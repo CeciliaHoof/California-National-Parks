@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ParkCard from "../components/ParkCard";
 import ParkInfo from "../components/ParkInfo";
+import ParkFilter from "../components/ParkFilter";
 import { Card, Container } from "semantic-ui-react";
 import styled from "styled-components";
 
@@ -16,12 +17,15 @@ const PageWelcome = styled(Container)`
 `;
 
 const CardContainer = styled.div`
+
   margin: 0px 11px 0px 11px;
 `
 
 function Parks() {
   const [parks, setParks] = useState([]);
   const [selectedPark, setSelectedPark] = useState({});
+  const [filterActivity, setFilterActivity] = useState("");
+  const [filterWildlife, setFilterWildlife] = useState("");
 
   useEffect(() => {
     fetch("http://localhost:8001/parks")
@@ -33,7 +37,23 @@ function Parks() {
     setSelectedPark(park);
   }
 
-  const parksDisplay = parks.map((park) => (
+  function handleFilter(activity, wildlife){
+    setFilterActivity(activity);
+    setFilterWildlife(wildlife)
+  }
+
+  
+  function filterParks(parksArr, targetActivity){
+    if (filterActivity.length === 0){
+      return parksArr
+    } else if(filterActivity.length > 0){
+      return parksArr.filter(park => park.activities.includes(targetActivity))
+    }
+  }
+
+  const filteredParks = filterParks(parks, filterActivity)
+
+  const parksDisplay = filteredParks.map((park) => (
     <ParkCard park={park} key={park.id} onSelectPark={handleSelection} />
   ));
 
@@ -41,6 +61,7 @@ function Parks() {
     <main>
       <PageWelcome>
         <h2>Welcome to the Parks!</h2>
+        <ParkFilter onSubmitForm={handleFilter}/>
         <p>Click "View Park" to see Park details and read reviews</p>
       </PageWelcome>
       <CardContainer><Card.Group itemsPerRow={8}>{parksDisplay}</Card.Group></CardContainer>
