@@ -42,12 +42,15 @@ function Parks() {
   }
 
   
-  function filterParks(parksArr, targetActivity){
-      return parksArr.filter(park => targetActivity === '' || park.activities.includes(targetActivity))
-    } 
+  function filterParks(parksArr, targetActivity, targetWildLife) {
+    return parksArr.filter((park) => 
+      (targetActivity === '' || park.activities.includes(targetActivity)) &&
+      (targetWildLife === '' || park.wildlife.includes(targetWildLife))
+    );
+  }
 
 
-  const filteredParks = filterParks(parks, filterActivity)
+  const filteredParks = filterParks(parks, filterActivity, filterWildlife);
 
   const parksDisplay = filteredParks.map((park) => (
     <ParkCard park={park} key={park.id} onSelectPark={handleSelection} />
@@ -60,7 +63,9 @@ function Parks() {
         <ParkFilter onSubmitForm={handleFilter}/>
         <p>Click "View Park" to see Park details and read reviews</p>
       </PageWelcome>
-      <CardContainer><Card.Group itemsPerRow={8}>{parksDisplay}</Card.Group></CardContainer>
+      {filteredParks.length ===0 ? 
+      <div>{`Wow, that's an interesting combination! Unfortunately none of California National Parks offer ${filterActivity.toLowerCase()} and the oppurtunity to see ${filterWildlife}`}</div>:
+      <CardContainer><Card.Group itemsPerRow={8}>{parksDisplay}</Card.Group></CardContainer>}
         {Object.keys(selectedPark).length !== 0 ? 
         <ParkInfo park={selectedPark}/> :
         <StyledContainer>
@@ -75,5 +80,6 @@ function Parks() {
     </main>
   );
 }
+        
 
 export default Parks;
