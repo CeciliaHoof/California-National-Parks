@@ -17,7 +17,6 @@ const PageWelcome = styled(Container)`
 `;
 
 const CardContainer = styled.div`
-
   margin: 0px 11px 0px 11px;
 `
 
@@ -44,12 +43,9 @@ function Parks() {
 
   
   function filterParks(parksArr, targetActivity){
-    if (filterActivity.length === 0){
-      return parksArr
-    } else if(filterActivity.length > 0){
-      return parksArr.filter(park => park.activities.includes(targetActivity))
-    }
-  }
+      return parksArr.filter(park => targetActivity === '' || park.activities.includes(targetActivity))
+    } 
+
 
   const filteredParks = filterParks(parks, filterActivity)
 
