@@ -1,14 +1,14 @@
-import { Link } from "react-router-dom";
 import { Card, Image } from "semantic-ui-react";
 import styled from "styled-components";
 
-const StyledLink = styled(Link)`
-    font-size: 14px;
-`
 const StyledCard = styled(Card)`
-    text-align: center;
-`
+  text-align: center;
+`;
 
+const StyledSpan = styled.span`
+  font-size: 14px;
+  color: #6b7e8d;
+`;
 function ParkCard({ park, onSelectPark }) {
   const { fullName, images } = park;
 
@@ -19,7 +19,7 @@ function ParkCard({ park, onSelectPark }) {
         <Card.Header>{fullName}</Card.Header>
       </Card.Content>
       <Card.Content extra>
-        <span onClick={() => onSelectPark(park)}>View Park</span>
+        <StyledSpan onClick={() => onSelectPark(park)}>View Park</StyledSpan>
       </Card.Content>
     </StyledCard>
   );

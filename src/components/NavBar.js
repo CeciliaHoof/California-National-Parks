@@ -3,8 +3,8 @@ import { Menu } from "semantic-ui-react";
 import styled from "styled-components";
 
 const PageTitle = styled(Menu.Header)`
-    font-size: 40px;
-    padding: 15px;
+  font-size: 40px;
+  padding: 15px;
 `;
 const StyledMenuContainer = styled.div`
   margin-top: -1em;
@@ -23,7 +23,11 @@ function NavBar() {
           <Menu.Item className="custom-menu-item" as={NavLink} to="/parks">
             Parks
           </Menu.Item>
-          <Menu.Item className="custom-menu-item" as={NavLink} to="/trip-planner">
+          <Menu.Item
+            className="custom-menu-item"
+            as={NavLink}
+            to="/trip-planner"
+          >
             Trip Planner
           </Menu.Item>
           <Menu.Item className="custom-menu-item" as={NavLink} to="/contact">
@@ -31,7 +35,7 @@ function NavBar() {
           </Menu.Item>
         </Menu.Menu>
       </Menu>
-   </StyledMenuContainer>
+    </StyledMenuContainer>
   );
 }
 

@@ -4,8 +4,11 @@ import styled from "styled-components";
 import { Header } from "semantic-ui-react";
 
 const StyledHeader = styled(Header)`
-    background-color: #6B7E8D;
-`
+  background-color: #6b7e8d;
+`;
+const StyledMain = styled.main`
+  text-align: center;
+`;
 
 function ErrorPage() {
   const error = useRouteError();
@@ -13,14 +16,15 @@ function ErrorPage() {
 
   return (
     <>
-    <StyledHeader>
+      <StyledHeader>
         <NavBar />
-    </StyledHeader>
-    <main>
+      </StyledHeader>
+      <StyledMain>
         <h1>Whoops! Something went wrong!</h1>
-    </main>
+        <p>Try navigating to one of our other pages to get back on track.</p>
+      </StyledMain>
     </>
   );
-};
+}
 
 export default ErrorPage;

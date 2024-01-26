@@ -1,12 +1,12 @@
 import { Form, Dropdown } from "semantic-ui-react";
 import { useState } from "react";
-import styled from "styled-components"
+import styled from "styled-components";
 
 const StyledForm = styled(Form)`
   display: flex;
   justify-content: center;
   gap: 5px;
-`
+`;
 
 function TripForm({ onSubmitForm }) {
   const [selectedSeason, setSelectedSeason] = useState("");
@@ -35,26 +35,28 @@ function TripForm({ onSubmitForm }) {
   function handleSubmit(e) {
     e.preventDefault();
     onSubmitForm(`${selectedSeason}${selectedActivity}`);
+    setSelectedActivity("");
+    setSelectedSeason("");
   }
 
   return (
     <StyledForm onSubmit={handleSubmit}>
-        <Dropdown
-          selection
-          name="season"
-          value={selectedSeason}
-          options={seasonOptions}
-          placeholder="Select Season"
-          onChange={(e, { value }) => setSelectedSeason(value)}
-        />
-        <Dropdown
-          selection
-          name="activity"
-          value={selectedActivity}
-          options={activityOptions}
-          placeholder="Select Activity"
-          onChange={(e, { value }) => setSelectedActivity(value)}
-        />
+      <Dropdown
+        selection
+        name="season"
+        value={selectedSeason}
+        options={seasonOptions}
+        placeholder="Select Season"
+        onChange={(e, { value }) => setSelectedSeason(value)}
+      />
+      <Dropdown
+        selection
+        name="activity"
+        value={selectedActivity}
+        options={activityOptions}
+        placeholder="Select Activity"
+        onChange={(e, { value }) => setSelectedActivity(value)}
+      />
       <Form.Button type="submit">Submit</Form.Button>
     </StyledForm>
   );
