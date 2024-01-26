@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+## California NAtional Parks
+The website dedicated to California National Parks enables users to explore the offerings of each park. Users can click on individual cards that provide general information, display reviews from previous visitors, and allow new users to contribute their own reviews. Additionally, the site features a Trip Planner tool, enabling users to plan their visits based on activity preferences and the chosen season. A dedicated Contact page is available for users seeking assistance, and it also provides links to the California National Parks' social media pages for further engagement.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+**-National Park Database:**
 
-## Available Scripts
+Users can navigate through a database of California National Parks.
+Each park has detailed information, including a brief overview, available activities, wildlife, and general information.
+Users can leave reviews for each park, providing valuable feedback to other visitors.
 
-In the project directory, you can run:
 
-### `npm start`
+**-Trip Planner:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website features a Trip Planner tool.
+Users can select a season and an activity of interest.
+Based on the selected criteria, the website suggests parks that match the user's preferences.
+This feature can assist visitors in planning their trips according to their interests and the time of year.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**-Contact Page:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The contact page provides various communication options:
+Users can call the California National Park for inquiries or assistance.
+There's an email option for written communication.
+Visitors can find links to the official social media pages, facilitating engagement and updates.
+Physical address details are available for those who prefer to visit in person.
 
-### `npm run build`
+## Engineers
+**Cecilia Chimento**
+- Github: <a href="https://github.com/CeciliaHoof">CeciliaHoof</a><br>
+- Email: ccchimento@gmail.com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Isaiah Aguilera**
+- Github: <a href="https://github.com/IsaiahCoding">IsaiahCoding</a><br>
+- Email: <a href="mailto:IaguileraCFE@gmail.com">IaguileraCFE@gmail.com</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
