@@ -1,4 +1,7 @@
-California National Parks
+California National Parks                                                                             
+============================
+
+Description
 ============================
 The website dedicated to California National Parks enables users to explore the offerings of each park. Users can click on individual cards that provide general information, display reviews from previous visitors, and allow new users to contribute their own reviews. Additionally, the site features a Trip Planner tool, enabling users to plan their visits based on activity preferences and the chosen season. A dedicated Contact page is available for users seeking assistance, and it also provides links to the California National Parks' social media pages for further engagement.
 
@@ -11,8 +14,8 @@ Future Dev Ideas
 
 * Newsletter Subscription: Allow users to subscribe to newsletters for updates on park events, activities, and news.
 
-  Project Screenshots
-  ============================
+Project Screenshots
+============================
   
 <img width="1440" alt="Screenshot 2024-01-25 at 8 31 01 PM" src="https://github.com/CeciliaHoof/California-National-Parks/assets/82983831/49d852c0-6d95-4e70-9046-afac7c4a27fc">
 <img width="1440" alt="Screenshot 2024-01-25 at 8 31 34 PM" src="https://github.com/CeciliaHoof/California-National-Parks/assets/82983831/7f1a1ab6-ede2-4d38-9115-5788b27b1e40">
