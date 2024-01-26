@@ -1,24 +1,35 @@
-## California NAtional Parks
+California National Parks
+============================
 The website dedicated to California National Parks enables users to explore the offerings of each park. Users can click on individual cards that provide general information, display reviews from previous visitors, and allow new users to contribute their own reviews. Additionally, the site features a Trip Planner tool, enabling users to plan their visits based on activity preferences and the chosen season. A dedicated Contact page is available for users seeking assistance, and it also provides links to the California National Parks' social media pages for further engagement.
 
-## Features
-**-National Park Database:**
+Future Dev Ideas
+============================
 
+* Multimedia Content: Enables users to generate and share their photos and videos for each park upon submission.
+
+* Account Features: Incorporate a user login and authentication system to enable the creation of personalized accounts, allowing users to access their saved reviews and preferences.
+
+* Newsletter Subscription: Allow users to subscribe to newsletters for updates on park events, activities, and news.
+
+
+
+
+Features:
+============================
+## National Park Database
 Users can navigate through a database of California National Parks.
 Each park has detailed information, including a brief overview, available activities, wildlife, and general information.
 Users can leave reviews for each park, providing valuable feedback to other visitors.
 
 
-**-Trip Planner:**
-
+## Trip Planner:
 The website features a Trip Planner tool.
 Users can select a season and an activity of interest.
 Based on the selected criteria, the website suggests parks that match the user's preferences.
 This feature can assist visitors in planning their trips according to their interests and the time of year.
 
 
-**-Contact Page:**
-
+## Contact Page:
 The contact page provides various communication options:
 Users can call the California National Park for inquiries or assistance.
 There's an email option for written communication.
