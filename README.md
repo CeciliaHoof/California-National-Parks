@@ -11,6 +11,14 @@ Future Dev Ideas
 
 * Newsletter Subscription: Allow users to subscribe to newsletters for updates on park events, activities, and news.
 
+  Project Screenshots
+  ============================
+  
+<img width="1440" alt="Screenshot 2024-01-25 at 8 31 01 PM" src="https://github.com/CeciliaHoof/California-National-Parks/assets/82983831/49d852c0-6d95-4e70-9046-afac7c4a27fc">
+<img width="1440" alt="Screenshot 2024-01-25 at 8 31 34 PM" src="https://github.com/CeciliaHoof/California-National-Parks/assets/82983831/7f1a1ab6-ede2-4d38-9115-5788b27b1e40">
+<img width="1440" alt="Screenshot 2024-01-25 at 8 31 26 PM" src="https://github.com/CeciliaHoof/California-National-Parks/assets/82983831/dc4bf764-2965-4beb-9bfb-df65f08d97f6">
+<img width="1440" alt="Screenshot 2024-01-25 at 8 31 42 PM" src="https://github.com/CeciliaHoof/California-National-Parks/assets/82983831/4165c415-e0c0-4861-a484-1d887e4f8d05">
+
 
 
 
@@ -49,7 +57,8 @@ General information
 * An email option is available for written communication.
 * Visitors can access links to the official social media pages, promoting engagement and updates.
 
-## Engineers
+Engineers
+============================
 **Cecilia Chimento**
 - Github: <a href="https://github.com/CeciliaHoof">CeciliaHoof</a><br>
 - Email: ccchimento@gmail.com
