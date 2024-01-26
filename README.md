@@ -16,25 +16,38 @@ Future Dev Ideas
 
 Features:
 ============================
-## National Park Database
-Users can navigate through a database of California National Parks.
-Each park has detailed information, including a brief overview, available activities, wildlife, and general information.
-Users can leave reviews for each park, providing valuable feedback to other visitors.
+**National Park Database:**
+
+* Users can navigate through a database of California National Parks.
+* Each park features detailed information, including:
+Brief overview
+Available activities
+Wildlife
+General information
+* Users have the ability to leave reviews for each park, contributing valuable feedback for other visitors.
 
 
-## Trip Planner:
-The website features a Trip Planner tool.
-Users can select a season and an activity of interest.
-Based on the selected criteria, the website suggests parks that match the user's preferences.
-This feature can assist visitors in planning their trips according to their interests and the time of year.
+**Trip Planner:**
+
+* The website includes a Trip Planner tool.
+* Users have the option to select a season and an activity of interest.
+* The website then suggests parks that align with the user's chosen criteria.
+* This feature aids visitors in planning their trips based on their interests and the chosen time of year.
+
+**Parks Page**
+
+* Users can view individual cards for each park.
+* Clicking on the "View Park" option renders park-specific information for the selected park.
+* In the "View Park" section, users access a concise biography, activities, and wildlife details unique to the chosen park.
+* General information about the park is also presented.
+* Additionally, there is a submission form allowing users to contribute to existing reviews submitted by other members.
 
 
-## Contact Page:
-The contact page provides various communication options:
-Users can call the California National Park for inquiries or assistance.
-There's an email option for written communication.
-Visitors can find links to the official social media pages, facilitating engagement and updates.
-Physical address details are available for those who prefer to visit in person.
+**Contact Page:**
+
+* Users can make inquiries or seek assistance by calling the California National Park.
+* An email option is available for written communication.
+* Visitors can access links to the official social media pages, promoting engagement and updates.
 
 ## Engineers
 **Cecilia Chimento**
