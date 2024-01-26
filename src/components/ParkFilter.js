@@ -6,11 +6,16 @@ const StyledForm = styled(Form)`
   display: flex;
   justify-content: center;
   gap: 5px;
+  margin-bottom: 5px;
 `;
 
+const initialState = {
+  "activity": "",
+  "wildlife": "",
+}
+
 function ParkFilter({ onSubmitForm }) {
-  const [selectedActivity, setSelectedActivity] = useState("");
-  const [selectedWildlife, setSelectedWildlife] = useState("");
+  const [formData, setFormData] = useState(initialState) 
 
   const activities = [
     "Snowshoeing",
@@ -37,9 +42,8 @@ function ParkFilter({ onSubmitForm }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    onSubmitForm(selectedActivity, selectedWildlife);
-    setSelectedActivity("");
-    setSelectedWildlife("");
+    onSubmitForm(formData);
+    setFormData(initialState)
   }
 
   return (
@@ -47,18 +51,18 @@ function ParkFilter({ onSubmitForm }) {
       <Dropdown
         selection
         name="activity"
-        value={selectedActivity}
+        value={formData.activity}
         options={activityOptions}
         placeholder="Select Activity"
-        onChange={(e, { value }) => setSelectedActivity(value)}
+        onChange={(e, { value }) => setFormData({...formData, "activity": value})}
       />
       <Dropdown
         selection
         name="Wildlife"
-        value={selectedWildlife}
+        value={formData.wildlife}
         options={wildlifeOptions}
         placeholder="Select Animal"
-        onChange={(e, { value }) => setSelectedWildlife(value)}
+        onChange={(e, { value }) => setFormData({...formData, "wildlife": value})}
       />
       <Form.Button type="submit">Submit</Form.Button>
     </StyledForm>

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import ParkCard from "../components/ParkCard";
 import ParkInfo from "../components/ParkInfo";
 import ParkFilter from "../components/ParkFilter";
-import { Card, Container, Divider } from "semantic-ui-react";
+import { Card, Container, Divider, Button } from "semantic-ui-react";
 import styled from "styled-components";
 
 const StyledContainer = styled(Container)`
@@ -37,20 +37,26 @@ function Parks() {
   const [selectedPark, setSelectedPark] = useState({});
   const [filterActivity, setFilterActivity] = useState("");
   const [filterWildlife, setFilterWildlife] = useState("");
+  const [filteredParks, setFilteredParks] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:8001/parks")
       .then((resp) => resp.json())
-      .then((data) => setParks(data));
+      .then((data) => {
+        setParks(data);
+        setFilteredParks(data);
+      });
   }, []);
 
   function handleSelection(park) {
     setSelectedPark(park);
   }
 
-  function handleFilter(activity, wildlife) {
-    setFilterActivity(activity);
-    setFilterWildlife(wildlife);
+  function handleFilterSubmit(filter) {
+    setFilterActivity(filter.activity.toLowerCase());
+    setFilterWildlife(filter.wildlife);
+    const filteredArr = filterParks(parks, filter.activity, filter.wildlife);
+    setFilteredParks(filteredArr);
   }
 
   function filterParks(parksArr, targetActivity, targetWildLife) {
@@ -60,8 +66,12 @@ function Parks() {
         (targetWildLife === "" || park.wildlife.includes(targetWildLife))
     );
   }
-
-  const filteredParks = filterParks(parks, filterActivity, filterWildlife);
+  
+  function resetFilter(){
+    setFilteredParks(parks);
+    setFilterActivity("");
+    setFilterWildlife("");
+  }
 
   const parksDisplay = filteredParks.map((park) => (
     <ParkCard park={park} key={park.id} onSelectPark={handleSelection} />
@@ -71,10 +81,12 @@ function Parks() {
     <main>
       <PageWelcome>
         <h2>Welcome to the Parks!</h2>
-        <ParkFilter onSubmitForm={handleFilter} />
+        <ParkFilter onSubmitForm={handleFilterSubmit} />
+        <Button onClick={resetFilter}>See All Parks</Button>
         <StyledDiv>
           {filteredParks.length === 0 ? (
-            <p>{`Wow, that's an interesting combination! Unfortunately, none of the National Parks in California offer both ${filterActivity.toLowerCase()} and the opportunity to see ${filterWildlife}. Try out a different combination!`}</p>
+            <p>{`Wow, that's an interesting combination! Unfortunately, none of the National Parks in California offer both 
+            ${filterActivity} and the opportunity to see ${filterWildlife}. Try out a different combination!`}</p>
           ) : (
             <p>Click "View Park" to see Park details and read reviews.</p>
           )}
