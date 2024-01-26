@@ -20,7 +20,7 @@ const Reviews = styled.div`
 `;
 
 function ParkReviews({ park }) {
-  const [reviews, setReviews] = useState(park.reviews);
+  const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
     fetch(`http://localhost:8001/parks/${park.id}?_embed=reviews`)
