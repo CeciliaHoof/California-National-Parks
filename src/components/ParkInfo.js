@@ -41,6 +41,7 @@ function ParkInfo({ park }) {
   if (!park) {
     return <h1>loading...</h1>;
   }
+
   const {
     fullName,
     description,
