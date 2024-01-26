@@ -6,8 +6,8 @@ const ContainerDiv = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 30px;
   padding: 0px 10px 0px 10px;
+  gap: 10px;
 `;
 const ContactsDiv = styled.div`
   padding: 10px;
@@ -25,7 +25,6 @@ const StyledLink = styled.a`
 const ImageContainer = styled.div`
   text-align: center;
   font-style: italic;
-  padding: 10px;
 `;
 
 function Contact() {

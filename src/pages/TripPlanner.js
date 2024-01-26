@@ -5,38 +5,51 @@ import { Container } from "semantic-ui-react";
 import styled from "styled-components";
 
 const StyledContainer = styled(Container)`
-    text-align: center;
-    margin-top: 30px;
-    padding: 5px;
-    font-size: 16px;
-`
+  text-align: center;
+  margin-top: 30px;
+  padding: 5px;
+  font-size: 16px;
+`;
 
-function TripPlanner(){
-    const [trip, setTrip] = useState([])
-    const [selectedTrip, setSelectedTrip] = useState(0)
+function TripPlanner() {
+  const [trip, setTrip] = useState([]);
+  const [selectedTrip, setSelectedTrip] = useState(0);
 
-    useEffect(() => {
-        fetch(`http://localhost:8001/trips/${selectedTrip}`)
-            .then(resp => resp.json())
-            .then(data => setTrip(data))
-    }, [selectedTrip])
+  useEffect(() => {
+    fetch(`http://localhost:8001/trips/${selectedTrip}`)
+      .then((resp) => resp.json())
+      .then((data) => setTrip(data));
+  }, [selectedTrip]);
 
-    function selectTrip(tripNum){
-        setSelectedTrip(parseInt(tripNum))
-    }
+  function selectTrip(tripNum) {
+    setSelectedTrip(parseInt(tripNum));
+  }
 
-    return(
-        <main>
-            <h2>Trip Planner</h2>
-            <TripForm onSubmitForm={selectTrip}/>
-            {selectedTrip === 0? 
-                (<StyledContainer>
-                    <h3>Make selections from the menus above to see a recommended National Park to visit along with suggested activities</h3> 
-                    <p>Do you spend your days dreaming of your next National Park trip? So do we! We hope these suggestions will inspire and guide your next adventure into the beauty of the great outdoors! Suggestions are based on the season in which you plan to travel and your preferred outdoor activity. Each suggestion contains a link to the website for the National Park suggested, so that you can further explore the vast potential of a National Park visit.</p>
-                </StyledContainer>):
-                <TripSuggestion suggestedTrip={trip}/>}
-        </main>
-    )
+  return (
+    <main>
+      <h2>Trip Planner</h2>
+      <TripForm onSubmitForm={selectTrip} />
+      {selectedTrip === 0 ? (
+        <StyledContainer>
+          <h3>
+            Make selections from the menus above to see a recommended National
+            Park to visit along with suggested activities
+          </h3>
+          <p>
+            Do you spend your days dreaming of your next National Park trip? So
+            do we! We hope these suggestions will inspire and guide your next
+            adventure into the beauty of the great outdoors! Suggestions are
+            based on the season in which you plan to travel and your preferred
+            outdoor activity. Each suggestion contains a link to the website for
+            the National Park suggested, so that you can further explore the
+            vast potential of a National Park visit.
+          </p>
+        </StyledContainer>
+      ) : (
+        <TripSuggestion suggestedTrip={trip} />
+      )}
+    </main>
+  );
 }
 
-export default TripPlanner
+export default TripPlanner;
