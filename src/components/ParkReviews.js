@@ -25,12 +25,13 @@ function ParkReviews({ park }) {
   useEffect(() => {
     fetch(`http://localhost:8001/parks/${park.id}?_embed=reviews`)
       .then((resp) => resp.json())
-      .then((data) => setReviews(data.reviews));
+      .then((data) => setReviews(data.reviews.reverse()));
   }, [park.id]);
 
   if (!reviews) {
     return <h1>Loading</h1>;
   }
+
   function handleNewReview(review) {
     setReviews([review, ...reviews]);
   }
